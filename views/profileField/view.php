@@ -1,4 +1,16 @@
 <?php
+<<<<<<< HEAD
+$this->breadcrumbs = array(
+	UserModule::t('Profile Fields')=>array('admin'),
+	UserModule::t($model->title),
+);
+?>
+
+<h1><?php echo UserModule::t('View Profile Field #').$model->varname; ?></h1>
+
+<?php $this->widget('bootstrap.widgets.TbDetailView', array(
+  'type'=>'striped condensed',
+=======
 $this->breadcrumbs=array(
 	UserModule::t('Profile Fields')=>array('admin'),
 	UserModule::t($model->title),
@@ -14,6 +26,7 @@ $this->menu=array(
 <h1><?php echo UserModule::t('View Profile Field #').$model->varname; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'data'=>$model,
 	'attributes'=>array(
 		'id',

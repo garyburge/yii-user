@@ -1,0 +1,11 @@
+# netbeans project directory
+nbproject/*
+
+# composer
+composer.lock
+
+# build
+build/closure-compiler
+
+# node
+node_modules/*

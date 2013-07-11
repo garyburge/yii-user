@@ -8,7 +8,11 @@ class UserChangePassword extends CFormModel {
 	public $oldPassword;
 	public $password;
 	public $verifyPassword;
+<<<<<<< HEAD
+
+=======
 	
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	public function rules() {
 		return Yii::app()->controller->id == 'recovery' ? array(
 			array('password, verifyPassword', 'required'),
@@ -29,11 +33,19 @@ class UserChangePassword extends CFormModel {
 	{
 		return array(
 			'oldPassword'=>UserModule::t("Old Password"),
+<<<<<<< HEAD
+			'password'=>UserModule::t('Password'),
+			'verifyPassword'=>UserModule::t("Retype Password"),
+		);
+	}
+
+=======
 			'password'=>UserModule::t("password"),
 			'verifyPassword'=>UserModule::t("Retype Password"),
 		);
 	}
 	
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	/**
 	 * Verify Old Password
 	 */

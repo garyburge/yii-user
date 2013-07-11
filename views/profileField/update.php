@@ -1,4 +1,15 @@
 <?php
+<<<<<<< HEAD
+  $this->breadcrumbs = array(
+    UserModule::t('Profile Fields') => array('admin'),
+    $model->title => array('view', 'id' => $model->id),
+    UserModule::t('Update'),
+  );
+?>
+
+<h1><?php echo UserModule::t('Update Profile Field ') . $model->id; ?></h1>
+<?php echo $this->renderPartial('_form', array('model' => $model)); ?>
+=======
 $this->breadcrumbs=array(
 	UserModule::t('Profile Fields')=>array('admin'),
 	$model->title=>array('view','id'=>$model->id),
@@ -14,3 +25,4 @@ $this->menu=array(
 
 <h1><?php echo UserModule::t('Update Profile Field ').$model->id; ?></h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a

@@ -1,4 +1,15 @@
 <?php
+<<<<<<< HEAD
+  $this->breadcrumbs = array(
+    UserModule::t('Users') => array('admin'),
+    UserModule::t('Create'),
+  );
+?>
+
+<h1><?php echo UserModule::t("Create User"); ?></h1>
+
+<?php echo $this->renderPartial('_form', array('model' => $model, 'profile' => $profile)); ?>
+=======
 $this->breadcrumbs=array(
 	UserModule::t('Users')=>array('admin'),
 	UserModule::t('Create'),
@@ -15,3 +26,4 @@ $this->menu=array(
 <?php
 	echo $this->renderPartial('_form', array('model'=>$model,'profile'=>$profile));
 ?>
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a

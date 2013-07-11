@@ -1,14 +1,26 @@
 <?php
 
 return array(
+<<<<<<< HEAD
+  'Created'=>'Created',
+  'Reset Password' => 'Reset Password',
+=======
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Εγγραφή',
 	'Register' => 'Εγγραφή',
 	'Login' => 'Είσοδος',
 	'Logout' => 'Έξοδος',
+<<<<<<< HEAD
+	'Username' => 'Όνομα χρήστη',
+	'Username or Email' => 'Όνομα χρήστη ή email',
+	'password' => 'Συνθηματικό',
+	'Remember Me Next Time' => 'Θυμήσου με την επόμενη φορά.',
+=======
 	'username' => 'Όνομα χρήστη',
 	'username or email' => 'Όνομα χρήστη ή email',
 	'password' => 'Συνθηματικό',
 	'Remember me next time' => 'Θυμήσου με την επόμενη φορά.',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Το όνομα χρήστη είναι λάθος.',
 	'Email is incorrect.' => 'Το email είναι λάθος.',
 	'This user\'s name already exists.' => 'Αυτό το όνομα χρήστη υπάρχει ήδη.',
@@ -18,37 +30,64 @@ return array(
 	'You account is not activated.' => 'Ο λογαριασμός σας δεν είναι ενεργοποιημένος.',
 	'You account is blocked.' =>'Ο λογαριασμός σας είναι φραγμένος.',
 	'Password is incorrect.' => 'Λάθος συνθηματικό.',
+<<<<<<< HEAD
+	'Email' => 'email',
+=======
 	'E-mail' => 'email',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Κώδικας επαλήθευσης.',
 	'Retype Password' => 'Πληκτρολογήστε ξανά το συνθηματικό',
 	'Retype Password is incorrect.' => 'Πληκτρολογήσατε λάθος την επαλήθευση του συνθηματικού.',
 	'Incorrect password (minimal length 4 symbols).' => 'Μη αποδεκτό συνθηματικό (τουλάχιστον 4 χαρακτήρες).',
 	'Incorrect username (length between 3 and 20 characters).' => 'Μη αποδεκτό όνομα χρήστη  (από 3 έως 20 χαρακτήρες).',
+<<<<<<< HEAD
+      'Incorrect First Name (length between 3 and 50 characters).' => 'Μη αποδεκτό όνομα χρήστη  (από 3 έως 20 χαρακτήρες).',
+	'Incorrect symbol\'s. (A-z0-9)' => 'Λάθος σύμβολα.(A-z0-9)',
+	'Variable name may consist of a-z, 0-9, underscores, begin with a letter.'=>'Το όνομα της μεταβλητής μπορεί να αποτελείται από τους χαρακτήρες a-z,0-9,κάτω παύλα.Πρέπει ν\'αρχίζει με γράμμα.',
+       "Length of ' + n + ' must be between '+min+' and '+max+'."=>"Το μήκος του  ' + n + ' πρέπει να είναι από  '+min+' έως '+max+'.",
+=======
 	'Incorrect First Name (length between 3 and 50 characters).' => 'Μη αποδεκτό όνομα χρήστη  (από 3 έως 20 χαρακτήρες).',
 	'Incorrect symbol\'s. (A-z0-9)' => 'Λάθος σύμβολα.(A-z0-9)',
 	'Variable name may consist of a-z, 0-9, underscores, begin with a letter.'=>'Το όνομα της μεταβλητής μπορεί να αποτελείται από τους χαρακτήρες a-z,0-9,κάτω παύλα.Πρέπει ν\'αρχίζει με γράμμα.',
 	"Length of ' + n + ' must be between '+min+' and '+max+'."=>"Το μήκος του  ' + n + ' πρέπει να είναι από  '+min+' έως '+max+'.",
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Please enter the letters as they are shown in the image above.' => 'Παρακαλούμε πληκτρολογείστε τα γράμματα της παραπάνω εικόνας.',
 	'Letters are not case-sensitive.' => 'Τα γράμματα μπορούν να είναι κεφαλαία και μικρά.',
 	'Minimal password length 4 symbols.' => 'Μήκος συνθηματικού τουλάχιστον 4 χαρακτήρες.',
 	'Lost Password?' => 'Έχετε ξεχάσει το συνθηματικό;',
 	'Profile' => 'Προφίλ',
+<<<<<<< HEAD
+	'Activation Key' => 'Κλειδί ενεργοποίησης',
+=======
 	'activation key' => 'Κλειδί ενεργοποίησης',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Ενεργοποίηση χρήστη',
 	'You account is active.' => 'Ο λογαριασμός σας είναι ενεργός.',
 	'You account is activated.' => 'Ο λογαριασμός σας έχει ενεργοποιηθεί',
 	'Incorrect activation URL.' => 'Λάθος URL ενεργοποίησης.',
+<<<<<<< HEAD
+	'Registration Date' => 'Ημερομηνία εγγραφής',
+	'Last Visit' => 'Τελευταία επίσκεψη',
+=======
 	'Registration date' => 'Ημερομηνία εγγραφής',
 	'Last visit' => 'Τελευταία επίσκεψη',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Υπερχρήστης',
 	'Status' => 'Κατάσταση',
 	'Ok' => 'Εντάξει',
 	'Show all'=> 'Όλα',
 	'Save' => 'Αποθήκευση',
 	'Cancel'=> 'Άκυρο',
+<<<<<<< HEAD
+	'Your new password was saved' => 'Το νέο συνθηματικό έχει αποθηκευτεί.',
+	'Change password' => 'Αλλαγή συνθηματικού',
+    'Change Password' => 'Αλλαγή συνθηματικού',
+	'Your Profile' => 'Το προφίλ σας.',
+=======
 	'New password is saved.' => 'Το νέο συνθηματικό έχει αποθηκευτεί.',
 	'Change password' => 'Αλλαγή συνθηματικού',
 	'Your profile' => 'Το προφίλ σας.',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Ευχαριστούμε για την εγγραφή σας.Παρακαλούμε δείτε το ηλεκτρονικό σας ταχυδρομείο ή συνδεθείτε.',
 	'Thank you for your registration. Please check your email.' => 'Ευχαριστούμε για την εγγραφή σας.Παρακαλούμε δείτε το ηλεκτρονικό σας ταχυδρομείο.',
 	'Please check your email. An instructions was sent to your email address.' => 'Παρακαλούμε δείτε το ηλεκτρονικό σας ταχυδρομείο,έχουν σταλεί οδηγίες.',
@@ -69,24 +108,44 @@ return array(
 	'Banned' => 'Φραγμένος',
 	'Please fill out the following form with your login credentials:' => 'Παρακαλούμε πληκτρολογείστε τα στοιχεία της σύνδεσής σας.',
 	'Fields with <span class="required">*</span> are required.' => 'Πεδία με  <span class="required">*</span>  απαιτούνται.',
+<<<<<<< HEAD
+	'List Users' => 'Λίστα χρηστών',
+        'List Users' => 'Λίστα χρηστών',
+	'Edit Profile' => 'Αλλαγή',
+	'Edit Profile' => 'Αλλαγές στο προφίλ',
+        'Edit Profile' => 'Αλλαγές στο προφίλ',
+=======
 	'List User' => 'Λίστα χρηστών',
 	'List Users' => 'Λίστα χρηστών',
 	'Edit' => 'Αλλαγή',
 	'Edit profile' => 'Αλλαγές στο προφίλ',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Δημιουργία χρήστη',
 	'Create' => 'Δημιουργία',
 	'Manage' => 'Διαχείριση',
 	'Manage User' => 'Διαχείριση Χρήστη',
+<<<<<<< HEAD
+       'Manage Users' => 'Διαχείριση Χρηστών',
+	'Users' => 'Χρήστες',
+	'Update User' => 'Ανανέωση Χρήστη',
+         'Update' => 'Ανανέωση',
+=======
 	'Manage Users' => 'Διαχείριση Χρηστών',
 	'Users' => 'Χρήστες',
 	'Update User' => 'Ανανέωση Χρήστη',
 	'Update' => 'Ανανέωση',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Delete User' => 'Διαγραφή Χρήστη',
 	'Delete file' => 'Διαγαραφή αρχείου',
 	'View User' => 'Εμφάνιση Χρήστη',
 	'Are you sure to delete this item?' => 'Σίγουρα θέλετε να διαγράψετε αυτό το αντικείμενο;',
+<<<<<<< HEAD
+	'Changes are saved.' => 'Οι αλλαγές αποθηκεύτηκαν',
+	'Manage Profile Fields' => 'Διαχείρηση Πεδίων Προφίλ',
+=======
 	'Changes is saved.' => 'Οι αλλαγές αποθηκεύτηκαν',
 	'Manage Profile Field' => 'Διαχείρηση Πεδίων Προφίλ',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Όνομα μεταβλητής',
 	'Title' => 'Τίτλος',
 	'Field Type' => 'Τύπος πεδίου',
@@ -109,12 +168,20 @@ return array(
 	'View Profile Field #' => 'Εμφάνιση πεδίου προφίλ #',
 	'Manage Profile Fields' => 'Διαχείριση Πεδίων Προφίλ ',
 	'Create Profile Field' => 'Δημιουργία Πεδίου Προφίλ',
+<<<<<<< HEAD
+      'Create Profile Fields' => 'Δημιουργία Πεδίου Προφίλ',
+=======
 	'Create Profile Fields' => 'Δημιουργία Πεδίου Προφίλ',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'List Profile Field' => 'Λίστα Πεδίων Προφίλ',
 	'View Profile Field' => 'Εμφάνιση Πεδίου Προφίλ',
 	'Delete Profile Field' => 'Διαγραφή Πεδίου Προφίλ',
 	'Update Profile Field' => 'Ανανέωση Πεδίου Προφίλ',
+<<<<<<< HEAD
+          'My profile'=>'Το προφίλ μου',
+=======
 	'My profile'=>'Το προφίλ μου',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Widget'=>'Widget',
 	'Widget parametrs'=>'Παράμετροι Widget ',
 	'Widget name.'=>'Όνομα Widget',
@@ -130,5 +197,9 @@ return array(
 	'The value of the default field (database).' => 'Η τιμή του εξ\'ορισμού πεδίου (βάση δεδομένων).',
 	'Display order of fields.' => 'Σειρά εμφάνισης των πεδίων.',
 	'Not visited' => 'Δεν έχει επισκεφθεί',
+<<<<<<< HEAD
+        'Birthday'=>'Ημερομηνία Γέννησης'
+=======
 	'Birthday'=>'Ημερομηνία Γέννησης'
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 );

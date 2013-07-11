@@ -1,14 +1,26 @@
 <?php
 
 return array(
+<<<<<<< HEAD
+  'Created'=>'Created',
+  'Reset Password' => 'Reset Password',
+=======
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Registratie',
 	'Register' => 'Registreren',
 	'Login' => 'Inloggen',
 	'Logout' => 'Uitloggen',
+<<<<<<< HEAD
+	'Username' => 'Gebruikersnaam',
+	'Username or Email' => 'Gebruikersnaam of email',
+	'password' => 'Wachtwoord',
+	'Remember Me Next Time' => 'Herinner me de volgende keer',
+=======
 	'username' => 'Gebruikersnaam',
 	'username or email' => 'Gebruikersnaam of email',
 	'password' => 'Wachtwoord',
 	'Remember me next time' => 'Herinner me de volgende keer',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Gebruikersnaam is niet bekend.',
 	'Email is incorrect.' => 'E-Mail is niet bekend.',
 	'This user\'s name already exists.' => 'Deze gebruikersnaam bestaat al.',
@@ -18,7 +30,11 @@ return array(
 	'You account is not activated.' => 'Uw account is nu geactiveerd.',
 	'You account is blocked.' => 'Uw account is geblokkeerd.',
 	'Password is incorrect.' => 'Wachtwoord is niet correct.',
+<<<<<<< HEAD
+	'Email' => 'Email',
+=======
 	'E-mail' => 'E-mail',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Verificatiecode',
 	'Retype Password' => 'Wachtwoord opnieuw invoeren',
 	'Retype Password is incorrect.' => 'Opnieuw wachtwoord invoeren is niet correct.',
@@ -32,22 +48,37 @@ return array(
 	'Minimal password length 4 symbols.' => 'Minimale lengte voor wachtwoord is 4 karakters.',
 	'Lost Password?' => 'Wachtwoord vergeten?',
 	'Profile' => 'Profiel',
+<<<<<<< HEAD
+	'Activation Key' => 'Activeringscode',
+=======
 	'activation key' => 'Activeringscode',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Gebruikersactivering',
 	'You account is active.' => 'Uw account is actief.',
 	'You account is activated.' => 'Uw account is geactiveerd.',
 	'Incorrect activation URL.' => 'Ongeldige URL voor activering.',
+<<<<<<< HEAD
+	'Registration Date' => 'Registratiedatum',
+	'Last Visit' => 'Laatste bezoek',
+=======
 	'Registration date' => 'Registratiedatum',
 	'Last visit' => 'Laatste bezoek',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Superuser',
 	'Status' => 'Status',
 	'Ok' => 'Ok',
 	'Show all'=> 'Toon alle',
 	'Save' => 'Opslaan',
 	'Cancel'=> 'Annuleren',
+<<<<<<< HEAD
+	'Your new password was saved' => 'Nieuw wachtwoord is opgeslagen.',
+	'Change password' => 'Wijzig wachtwoord',
+	'Your Profile' => 'Uw profiel',
+=======
 	'New password is saved.' => 'Nieuw wachtwoord is opgeslagen.',
 	'Change password' => 'Wijzig wachtwoord',
 	'Your profile' => 'Uw profiel',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Dank u wel voor uw registratie. Controleer uw email of log direct in.',
 	'Thank you for your registration. Please check your email.' => 'Dank u wel voor uw registratie. Controleer alstublieft uw email.',
 	'Please check your email. An instructions was sent to your email address.' => 'Controleer alstublieft uw email. De instructies zijn naar uw emailadres verzonden.',
@@ -68,9 +99,15 @@ return array(
 	'Banned' => 'Verbannen',
 	'Please fill out the following form with your login credentials:' => 'Vul het volgende formulier in met uw login-gegevens:',
 	'Fields with <span class="required">*</span> are required.' => 'Velden met <span class="required">*</span> zijn verplicht.',
+<<<<<<< HEAD
+	'List Users' => 'Gebruikerslijst',
+	'Edit Profile' => 'Bewerken',
+	'Edit Profile' => 'Bewerk profiel',
+=======
 	'List User' => 'Gebruikerslijst',
 	'Edit' => 'Bewerken',
 	'Edit profile' => 'Bewerk profiel',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Gebruiker aanmaken',
 	'Create' => 'Aanmaken',
 	'Manage' => 'Beheren',
@@ -81,8 +118,13 @@ return array(
 	'Delete file' => 'Verwijder bestand',
 	'View User' => 'Bekijk gebruiker',
 	'Are you sure to delete this item?' => 'Weet u zeker dat u dit item wilt verijderen? ',
+<<<<<<< HEAD
+	'Your changes were saved' => 'Wijzigingen opgelagen.',
+	'Manage Profile Fields' => 'Beheer profiel-veld',
+=======
 	'Changes is saved.' => 'Wijzigingen opgelagen.',
 	'Manage Profile Field' => 'Beheer profiel-veld',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Variabele naam',
 	'Title' => 'Titel',
 	'Field Type' => 'Veldtype',

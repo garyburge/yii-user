@@ -1,14 +1,26 @@
 <?php
 
 return array(
+<<<<<<< HEAD
+  'Created'=>'Created',
+  'Reset Password' => 'Reset Password',
+=======
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Regisztráció',
 	'Register' => 'Regisztráció',
 	'Login' => 'Bejelentkezés',
 	'Logout' => 'Kijelentkezés',
+<<<<<<< HEAD
+	'Username' => 'Felhasználónév',
+	'Username or Email' => 'Felhasználónév vagy e-mail',
+	'password' => 'Jelszó',
+	'Remember Me Next Time' => 'Emlékezzen rám legközelebb',
+=======
 	'username' => 'Felhasználónév',
 	'username or email' => 'Felhasználónév vagy e-mail',
 	'password' => 'Jelszó',
 	'Remember me next time' => 'Emlékezzen rám legközelebb',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Hibás felhasználónév.',
 	'Email is incorrect.' => 'Hibás e-mail cím.',
 	'This user\'s name already exists.' => 'A felhasználónév már foglalt.',
@@ -18,7 +30,11 @@ return array(
 	'You account is not activated.' => 'Hozzáférésed inaktív.',
 	'You account is blocked.' => 'Hozzáférésed felfüggesztve.',
 	'Password is incorrect.' => 'Jelszó helytelen.',
+<<<<<<< HEAD
+	'Email' => 'Email',
+=======
 	'E-mail' => 'e-mail',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Ellenőrző kód',
 	'Retype Password' => 'Jelszó újra',
 	'Retype Password is incorrect.' => 'A két jelszó nem egyezik',
@@ -32,22 +48,37 @@ return array(
 	'Minimal password length 4 symbols.' => 'A jelszónak legalább 4 karakterből kell állnia.',
 	'Lost Password?' => 'Elfelejtett jelszó?',
 	'Profile' => 'Profil',
+<<<<<<< HEAD
+	'Activation Key' => 'Aktiváló kulcs',
+=======
 	'activation key' => 'Aktiváló kulcs',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Felhasználó aktiválás',
 	'You account is active.' => 'A hozzáférésed aktív.',
 	'You account is activated.' => 'A hozzáférésed aktíválva lett.',
 	'Incorrect activation URL.' => 'Érvénytelen aktivációs link',
+<<<<<<< HEAD
+	'Registration Date' => 'Regisztráció dátuma',
+	'Last Visit' => 'Utolsó látogatás',
+=======
 	'Registration date' => 'Regisztráció dátuma',
 	'Last visit' => 'Utolsó látogatás',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Superuser',
 	'Status' => 'Státusz',
 	'Ok' => 'Ok',
 	'Show all'=> 'Mindet mutat',
 	'Save' => 'Mentés',
 	'Cancel'=> 'Mégsem',
+<<<<<<< HEAD
+	'Your new password was saved' => 'Új jelszó elmentve.',
+	'Change password' => 'Jelszó változtatás',
+	'Your Profile' => 'Profilod',
+=======
 	'New password is saved.' => 'Új jelszó elmentve.',
 	'Change password' => 'Jelszó változtatás',
 	'Your profile' => 'Profilod',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Köszönjük a regisztrációt. Kérlek ellenörizd az e-mail fiokod vagy jelentkezz be.',
 	'Thank you for your registration. Please check your email.' => 'Köszönjük a regisztrációt. Kérlek ellenörizd az e-mailed.',
 	'Please check your email. An instructions was sent to your email address.' => 'Kérlek ellenörizd az e-mail fiokod. Utasításokat elküldtük.',
@@ -68,9 +99,15 @@ return array(
 	'Banned' => 'Kitiltva',
 	'Please fill out the following form with your login credentials:' => 'Kérem adja meg bejelentkezési adatait:',
 	'Fields with <span class="required">*</span> are required.' => '<span class="required">*</span>-al jelölt mezők kitöltése kötelező.',
+<<<<<<< HEAD
+	'List Users' => 'Felhasználók listája',
+	'Edit Profile' => 'Szerkesztés',
+	'Edit Profile' => 'Profil szerkesztése',
+=======
 	'List User' => 'Felhasználók listája',
 	'Edit' => 'Szerkesztés',
 	'Edit profile' => 'Profil szerkesztése',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Új felhasználó',
 	'Create' => 'Létrehoz',
 	'Manage' => 'Kezelés',
@@ -81,8 +118,13 @@ return array(
 	'Delete file' => 'File törlés',
 	'View User' => 'Felhasználó megtekintése',
 	'Are you sure to delete this item?' => 'Biztosan törölni akarod ezt az elemet?',
+<<<<<<< HEAD
+	'Changes are saved.' => 'Változások mentve.',
+	'Manage Profile Fields' => 'Profil mezők kezelése',
+=======
 	'Changes is saved.' => 'Változások mentve.',
 	'Manage Profile Field' => 'Profil mezők kezelése',
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Változó neve',
 	'Title' => 'Cím',
 	'Field Type' => 'Mező típus',

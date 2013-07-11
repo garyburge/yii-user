@@ -7,11 +7,19 @@ class Profile extends UActiveRecord
 	 * @var integer $user_id
 	 * @var boolean $regMode
 	 */
+<<<<<<< HEAD
+	public $regMode = false;
+	
+	private $_model;
+	private $_modelReg;
+	private $_rules = array();
+=======
 	public static $regMode = false;
 	
 	private static $_model;
 	private static $_modelReg;
 	private static $_rules = array();
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 
 	/**
 	 * Returns the static model of the specified AR class.
@@ -35,14 +43,22 @@ class Profile extends UActiveRecord
 	 */
 	public function rules()
 	{
+<<<<<<< HEAD
+		if (!$this->_rules) {
+=======
 		if (!self::$_rules) {
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 			$required = array();
 			$numerical = array();
 			$float = array();		
 			$decimal = array();
 			$rules = array();
 			
+<<<<<<< HEAD
+			$model=$this->getFields();
+=======
 			$model=self::getFields();
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 			
 			foreach ($model as $field) {
 				$field_rule = array();
@@ -74,11 +90,15 @@ class Profile extends UActiveRecord
 						array_push($rules,$field_rule);
 					}
 				} elseif ($field->field_type=='DATE') {
+<<<<<<< HEAD
+					$field_rule = array($field->varname, 'type', 'type' => 'date', 'dateFormat' => 'yyyy-mm-dd', 'allowEmpty'=>true);
+=======
                     if ($field->required)
                         $field_rule = array($field->varname, 'date', 'format' => array('yyyy-mm-dd'));
                     else
                         $field_rule = array($field->varname, 'date', 'format' => array('yyyy-mm-dd','0000-00-00'), 'allowEmpty'=>true);
 
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 					if ($field->error_message) $field_rule['message'] = UserModule::t($field->error_message);
 					array_push($rules,$field_rule);
 				}
@@ -98,9 +118,15 @@ class Profile extends UActiveRecord
 			array_push($rules,array(implode(',',$numerical), 'numerical', 'integerOnly'=>true));
 			array_push($rules,array(implode(',',$float), 'type', 'type'=>'float'));
 			array_push($rules,array(implode(',',$decimal), 'match', 'pattern' => '/^\s*[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?\s*$/'));
+<<<<<<< HEAD
+			$this->_rules = $rules;
+		}
+		return $this->_rules;
+=======
 			self::$_rules = $rules;
 		}
 		return self::$_rules;
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	}
 
 	/**
@@ -125,7 +151,11 @@ class Profile extends UActiveRecord
 		$labels = array(
 			'user_id' => UserModule::t('User ID'),
 		);
+<<<<<<< HEAD
+		$model=$this->getFields();
+=======
 		$model=self::getFields();
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 		
 		foreach ($model as $field)
 			$labels[$field->varname] = ((Yii::app()->getModule('user')->fieldsMessage)?UserModule::t($field->title,array(),Yii::app()->getModule('user')->fieldsMessage):UserModule::t($field->title));
@@ -155,7 +185,11 @@ class Profile extends UActiveRecord
 	
 	public function widgetAttributes() {
 		$data = array();
+<<<<<<< HEAD
+		$model=$this->getFields();
+=======
 		$model=self::getFields();
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 		
 		foreach ($model as $field) {
 			if ($field->widget) $data[$field->varname]=$field->widget;
@@ -165,7 +199,11 @@ class Profile extends UActiveRecord
 	
 	public function widgetParams($fieldName) {
 		$data = array();
+<<<<<<< HEAD
+		$model=$this->getFields();
+=======
 		$model=self::getFields();
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 		
 		foreach ($model as $field) {
 			if ($field->widget) $data[$field->varname]=$field->widgetparams;
@@ -173,6 +211,19 @@ class Profile extends UActiveRecord
 		return $data[$fieldName];
 	}
 	
+<<<<<<< HEAD
+	public function getFields() {
+		if ($this->regMode) {
+			if (!$this->_modelReg)
+				$this->_modelReg=ProfileField::model()->forRegistration()->findAll();
+			return $this->_modelReg;
+		} else {
+			if (!$this->_model)
+				$this->_model=ProfileField::model()->forOwner()->findAll();
+			return $this->_model;
+		}
+	}
+=======
 	public static function getFields() {
 		if (self::$regMode) {
 			if (!self::$_modelReg)
@@ -191,4 +242,5 @@ class Profile extends UActiveRecord
         }
         return parent::afterSave();
     }
+>>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 }

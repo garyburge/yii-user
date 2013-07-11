@@ -1,0 +1,12 @@
+{
+	"name": "yiiuser",
+	"description": "A fork of the yii-user module with many fixes, grammar and spelling corrections and other improvements.",
+	"author": "mishamx",
+	"installationHash": "b3327d6a51617386176d014e31fef732f5093fc6",
+	"type": "git",
+	"url": "git@github.com:phpnode\/YiiCurl.git",
+	"repositoryName": "local",
+	"dependencies": [
+
+	]
+}
