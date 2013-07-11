@@ -1,26 +1,16 @@
 <?php
 
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Registrierung',
 	'Register' => 'Registrieren',
 	'Login' => 'Login',
 	'Logout' => 'Logout',
-<<<<<<< HEAD
 	'Username' => 'Benutzername',
 	'Username or Email' => 'Benutzername oder E-Mail',
 	'password' => 'Passwort',
 	'Remember Me Next Time' => 'Das nächste Mal an mich erinnern',
-=======
-	'username' => 'Benutzername',
-	'username or email' => 'Benutzername oder E-Mail',
-	'password' => 'Passwort',
-	'Remember me next time' => 'Das nächste Mal an mich erinnern',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Benutzername ist falsch.',
 	'Email is incorrect.' => 'E-Mail ist nicht korrekt.',
 	'This user\'s name already exists.' => 'Der Benutzer Name existiert bereits.',
@@ -30,11 +20,7 @@ return array(
 	'You account is not activated.' => 'Ihr Konto wurde nicht aktiviert.',
 	'You account is blocked.' => 'Ihr Konto wurde blockiert.',
 	'Password is incorrect.' => 'Passwort ist falsch.',
-<<<<<<< HEAD
 	'Email' => 'Email',
-=======
-	'E-mail' => 'E-mail',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Verification Code',
 	'Retype Password' => 'Passwort wiederholen',
 	'Retype Password is incorrect.' => 'Wiederholtes Passwort ist falsch.',
@@ -48,37 +34,22 @@ return array(
 	'Minimal password length 4 symbols.' => 'Minimale Länge des Passworts 4 Zeichen.',
 	'Lost Password?' => 'Passwort vergessen?',
 	'Profile' => 'Profil',
-<<<<<<< HEAD
 	'Activation Key' => 'Aktivierungsschlüssel',
-=======
-	'activation key' => 'Aktivierungsschlüssel',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'User-Aktivierung',
 	'You account is active.' => 'Ihr Konto ist aktiv.',
 	'You account is activated.' => 'Ihr Konto wurde aktiviert.',
 	'Incorrect activation URL.' => 'Falsche Aktivierungs URL.',
-<<<<<<< HEAD
 	'Registration Date' => 'Anmeldedatum',
 	'Last Visit' => 'Letzter Besuch',
-=======
-	'Registration date' => 'Anmeldedatum',
-	'Last visit' => 'Letzter Besuch',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Superuser',
 	'Status' => 'Status',
 	'Ok' => 'Ok',
 	'Show all'=> 'Alle anzeigen',
 	'Save' => 'Sichern',
 	'Cancel'=> 'Stornieren',
-<<<<<<< HEAD
 	'Your new password was saved' => 'Neues Passwort wird gespeichert.',
 	'Change password' => 'Passwort ändern',
 	'Your Profile' => 'Ihr Profil',
-=======
-	'New password is saved.' => 'Neues Passwort wird gespeichert.',
-	'Change password' => 'Passwort ändern',
-	'Your profile' => 'Ihr Profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Vielen Dank für Ihre Anmeldung. Bitte überprüfen Sie Ihre E-Mails oder loggen Sie sich ein.',
 	'Thank you for your registration. Please check your email.' => 'Vielen Dank für Ihre Anmeldung. Bitte überprüfen Sie Ihre E-Mails.',
 	'Please check your email. An instructions was sent to your email address.' => 'Bitte überprüfen Sie Ihre E-Mails. Eine Anleitung wurde an Ihre E-Mail-Adresse geschickt.',
@@ -99,15 +70,9 @@ return array(
 	'Banned' => 'Verbannt',
 	'Please fill out the following form with your login credentials:' => 'Bitte Ihren Login-Daten eingeben:',
 	'Fields with <span class="required">*</span> are required.' => 'Felder mit <span class="required"> * </ span> sind erforderlich.',
-<<<<<<< HEAD
 	'List Users' => 'Benutzer auflisten',
 	'Edit Profile' => 'Bearbeiten',
 	'Edit Profile' => 'Meine Daten bearbeiten',
-=======
-	'List User' => 'Benutzer auflisten',
-	'Edit' => 'Bearbeiten',
-	'Edit profile' => 'Meine Daten bearbeiten',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Benutzer anlegen',
 	'Create' => 'Schaffen',
 	'Manage' => 'Verwalten',
@@ -118,13 +83,8 @@ return array(
 	'Delete file' => 'Datei löschen',
 	'View User' => 'Benutzer anzeigen',
 	'Are you sure to delete this item?' => 'Sind Sie sicher, dass Sie dieses Element wirklich löschen wollen? ',
-<<<<<<< HEAD
 	'Changes are saved.' => 'Änderungen wurde gespeichert.',
 	'Manage Profile Fields' => 'Mange Profil Field',
-=======
-	'Changes is saved.' => 'Änderungen wurde gespeichert.',
-	'Manage Profile Field' => 'Mange Profil Field',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Variablen name',
 	'Title' => 'Titel',
 	'Field Type' => 'Feldtyp',

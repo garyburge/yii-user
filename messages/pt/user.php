@@ -3,26 +3,16 @@
  * @author Ricardo Obregón <robregonm@gmail.com>
  */
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Registration' => 'Cadastro',
 	'Register' => 'Cadastre-se',
     'Login' => 'Login',
     'Logout' => 'Logout',
-<<<<<<< HEAD
     'Username' => "Login",
     'Username or Email' => "Login ou Email",
     'password' => 'Senha',
     'Remember Me Next Time' => 'Lembrar de mim, mais tarde.',
-=======
-    'username' => "Login",
-    'username or email' => "Login ou Email",
-    'password' => 'Senha',
-    'Remember me next time' => 'Lembrar de mim, mais tarde.',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Username is incorrect.' => "Login incorreto.",
     'Email is incorrect.' => 'Email incorreto.',
     'This user\'s name already exists.' => 'Este login já existe.',
@@ -32,11 +22,7 @@ return array(
     'You account is not activated.' => "Sua conta não está ativada.",
     'You account is blocked.' => 'Sua conta está bloqueada.',
     'Password is incorrect.' => 'Senha incorreta.',
-<<<<<<< HEAD
     'Email' => 'Email',
-=======
-    'E-mail' => 'Email',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Verification Code' => 'Código de verificação',
     'Retype Password' => 'Redigite a senha',
     'Retype Password is incorrect.' => 'A redigitação de senha está incorreta.',
@@ -50,37 +36,22 @@ return array(
     'Minimal password length 4 symbols.' => 'A senha deve ter no mínimo 4 caracteres.',
     'Lost Password?' => 'Esqueceu a senha?',
     'Profile' => 'Perfil',
-<<<<<<< HEAD
     'Activation Key' => "Chave de ativação",
-=======
-    'activation key' => "Chave de ativação",
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'User activation' => "Ativação de usuário",
     'You account is active.' => 'Sua conta está ativa.',
     'You account is activated.' => 'Sua conta está ativada.',
     'Incorrect activation URL.' => 'A URL de ativação está incorreta.',
-<<<<<<< HEAD
     'Registration Date' => "Data de Cadastro",
     'Last Visit' => 'Última visita',
-=======
-    'Registration date' => "Data de Cadastro",
-    'Last visit' => 'Última visita',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Superuser' => 'Superusuário',
     'Status' => 'Estado',
     'Ok' => "Aceita",
 	'Show all'=> 'Mostrar todas',
     'Save' => 'Salvar',
 	'Cancel'=> 'Cancelar',
-<<<<<<< HEAD
     'Your new password was saved' => 'Nova senha salva.',
     'Change password' => 'Mudar senha',
     'Your Profile' => 'Seu perfil',
-=======
-    'New password is saved.' => 'Nova senha salva.',
-    'Change password' => 'Mudar senha',
-    'Your profile' => 'Seu perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Thank you for your registration. Please check your email or login.' => "Obrigado por cadastrar-se. Dentro de poucos minutos você receberá um email com as instruções para ativação de seu login.",
     'Thank you for your registration. Please check your email.' => "Obrigado por cadastrar-se. Dentro de poucos minutos você receberá um email com as instruções para ativação de seu login.",
     'Please check your email. An instructions was sent to your email address.' => "Por favor verifique seu email. As instruções já foram enviadas.",
@@ -101,15 +72,9 @@ return array(
 	'Banned' => 'Banido',
     'Please fill out the following form with your login credentials:' => "Por favor, preencha o seguinte formulário com as suas credenciais:",
     'Fields with <span class="required">*</span> are required.' => 'Os campos com <span class="required"> * </span> são obrigatórios.',
-<<<<<<< HEAD
     'List Users' => 'Listar Usuários',
 	'Edit Profile' => 'Editar',
 	'Edit Profile' => 'Editar perfil',
-=======
-    'List User' => 'Listar Usuários',
-	'Edit' => 'Editar',
-	'Edit profile' => 'Editar perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Create User' => 'Criar Novo Usuário',
     'Create' => 'Criar',
     'Manage' => 'Administrar',
@@ -120,13 +85,8 @@ return array(
 	'Delete file' => 'Eliminar arquivo',
     'View User' => 'Ver Usuário',
     'Are you sure to delete this item?' => 'Confirma que deseja apagar este item?',
-<<<<<<< HEAD
     'Changes are saved.' => 'Atualizações realizadas com sucesso.',
     'Manage Profile Fields' => 'Administrar Campos de Perfil',
-=======
-    'Changes is saved.' => 'Atualizações realizadas com sucesso.',
-    'Manage Profile Field' => 'Administrar Campos de Perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Variable name' => 'Nome da variável',
 	'Title' => 'Título',
     'Field Type' => 'Tipo de Campo',
@@ -152,11 +112,7 @@ return array(
     'View Profile Field' => 'Ver Campo de Perfil',
     'Delete Profile Field' => 'Eliminar Campo de Perfil',
     'Update Profile Field' => 'Editar Campo de Perfil',
-<<<<<<< HEAD
 	'Widget'=>'Widget',
-=======
-	'Widget'=>'Widget', 
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Widget parametrs' => 'Widget parametrs',
 	'Widget name.' => 'Nome do widget.',
     'Allowed lowercase letters and digits.' => 'São permitidas letras minúsculas e números',

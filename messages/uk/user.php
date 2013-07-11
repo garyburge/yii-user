@@ -4,26 +4,16 @@
 * (c) Alexander Listunov
 */
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Реєстрація',
 	'Register' => 'Зареєструватися',
 	'Login' => 'Вхід',
 	'Logout' => 'Вийти',
-<<<<<<< HEAD
 	'Username' => 'Логін',
 	'Username or Email' => 'Логін або email',
 	'password' => 'Пароль',
 	'Remember Me Next Time' => 'Запам\'ятати мене',
-=======
-	'username' => 'Логін',
-	'username or email' => 'Логін або email',
-	'password' => 'Пароль',
-	'Remember me next time' => 'Запам\'ятати мене',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Користувач з таким ім\'ям вже зареєструвався',
 	'Email is incorrect.' => 'Користувач з такою електронною адресою не зареєструвався',
 	"This user's name already exists." => 'Користувач з таким ім\'ям вже зареєструвався',
@@ -33,11 +23,7 @@ return array(
 	'You account is not activated.' => 'Ваш профіль не активовано',
 	'You account is blocked.' => 'Ваш профіль заблоковано',
 	'Password is incorrect.' => 'Невірний пароль',
-<<<<<<< HEAD
 	'Email' => 'Електронна пошта',
-=======
-	'E-mail' => 'Електронна пошта',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Перевірочний код',
 	'Retype Password' => 'Повторіть пароль',
 	'Retype Password is incorrect.' => 'Паролі не співпадають',
@@ -51,50 +37,29 @@ return array(
 	'Minimal password length 4 symbols.' => 'Мінімальна довжина паролю 4 символи',
 	'Lost Password?' => 'Забули пароль?',
 	'Profile' => 'Профіль',
-<<<<<<< HEAD
 	'Activation Key' => 'Ключ активації',
-=======
-	'activation key' => 'Ключ активації',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Активація користувача',
 	'You account is active.' => 'Ваш профіль на сайті вже активовано',
 	'You account is activated.' => 'Ваш профіль на сайті активовано',
 	'Incorrect activation URL.' => 'Неправильне посилання активації профілю',
-<<<<<<< HEAD
 	'Registration Date' => 'Дата реєстрації',
 	'Last Visit' => 'Останній візит',
-=======
-	'Registration date' => 'Дата реєстрації',
-	'Last visit' => 'Останній візит',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Супер користувач',
 	'Status' => 'Статус',
 	'Ok' => 'Ok',
     'Show all'=> 'Показати все',
 	'Save' => 'Зберегти',
     'Cancel'=> 'Відмінити',
-<<<<<<< HEAD
 	'Your new password was saved' => 'Новий пароль збережено',
 	'Change password' => 'Змінити пароль',
 	'Your Profile' => 'Ваш профіль',
-=======
-	'New password is saved.' => 'Новий пароль збережено',
-	'Change password' => 'Змінити пароль',	
-	'Your profile' => 'Ваш профіль',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Реєстрацію завершено. Будь ласка, перевірте свою електронну пошту або увійдіть на сайт',
 	'Thank you for your registration. Please check your email.' => 'Реєстрацію завершено. Будь ласка, перевірте свою електронну пошту',
 	'Please check your email. An instructions was sent to your email address.' => 'На Вашу електронну пошту було надіслано лист з інструкціями',
     'Thank you for your registration. Please {{login}}.' => 'Реєстрацію завершено. {{login}}.',
-<<<<<<< HEAD
     'Thank you for your registration. Contact Admin to activate your account.' => 'Реєстрацію завершено. Будь ласка, зв\'яжіться з адміністрацією сайту для активації вашого аккаунта',
 	'Restore' => 'Відновити',
 	'Please enter your login or email addres.' => 'Будь ласка, введіть Ваш логін або електронну пошту',
-=======
-    'Thank you for your registration. Contact Admin to activate your account.' => 'Реєстрацію завершено. Будь ласка, зв\'яжіться з адміністрацією сайту для активації вашого аккаунта',    
-	'Restore' => 'Відновити',    
-	'Please enter your login or email addres.' => 'Будь ласка, введіть Ваш логін або електронну пошту',    
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Incorrect recovery link.' => 'Неправильне посилання відновлення паролю',
 	'Already exists.' => 'Вже існує',
 	'First Name' => 'Ім\'я',
@@ -108,15 +73,9 @@ return array(
 	'Banned' => 'Заблоковано',
 	'Please fill out the following form with your login credentials:' => 'Будь ласка, заповніть наступну форму з вашим Логіном та паролем:',
 	'Fields with <span class="required">*</span> are required.' => '<span class="required">*</span> Обов\'язкові поля',
-<<<<<<< HEAD
 	'List Users' => 'Список користувачів',
 	'Edit Profile' => 'Редагувати',
 	'Edit Profile' => 'Редагування профілю',
-=======
-	'List User' => 'Список користувачів',
-	'Edit' => 'Редагувати',
-	'Edit profile' => 'Редагування профілю',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Новий',
 	'Create' => 'Новий',
 	'Manage' => 'Управління',
@@ -127,13 +86,8 @@ return array(
     'Delete file' => 'Видалити файл',
 	'View User' => 'Перегляд профілю',
 	'Are you sure to delete this item?' => 'Ви дійсно хочете видалити користувача?',
-<<<<<<< HEAD
 	'Changes are saved.' => 'Зміни збережено',
 	'Manage Profile Fields' => 'Налаштування полів',
-=======
-	'Changes is saved.' => 'Зміни збережено',
-	'Manage Profile Field' => 'Налаштування полів',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Ім\'я змінної',
 	'Title' => 'Назва',
 	'Field Type' => 'Тип поля',
@@ -169,28 +123,16 @@ return array(
 	'Field size column in the database.' => 'Розмір поля колонки в базі даних',
 	'The minimum value of the field (form validator).' => 'Мінімальне значення поля (перевірка форми).',
 	'Required field (form validator).' => 'Обов\'язкове поле (перевірка форми).',
-<<<<<<< HEAD
 	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Регулярні вирази (приклад: '/^[A-Za-z0-9\s,]+$/u')",
-=======
-	"Regular expression (example: '/^[A-Za-z0-9\s,]+$/u')." => "Регулярні вирази (приклад: '/^[A-Za-z0-9\s,]+$/u')",	
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Predefined values (example: 1;2;3;4;5 or 1==One;2==Two;3==Three;4==Four;5==Five).' => 'Допустимі значения (приклад: 1;2;3;4;5 або 1==Один;2==Два;3==Три;4==Чотири;5==П\'ять).',
 	'Error message when you validate the form.' => 'Повідомлення про помилку при перевірці форми.',
 	'The value of the default field (database).' => 'Значення поля за замовчуванням (база даних).',
 	'Display order of fields.' => 'Порядок відображення полів.',
     'Not visited' => 'Користувач не відвідував сайт',
 
-<<<<<<< HEAD
 
 
 
 
 
-=======
-    
-    
-    
-    
-    
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 );

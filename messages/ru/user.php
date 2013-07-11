@@ -1,26 +1,16 @@
 <?php
 
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Регистрация',
 	'Register' => 'Зарегистрироваться',
 	'Login' => 'Вход',
 	'Logout' => 'Выйти',
-<<<<<<< HEAD
 	'Username' => 'Логин',
 	'Username or Email' => 'Логин или email',
 	'password' => 'Пароль',
 	'Remember Me Next Time' => 'Запомнить меня',
-=======
-	'username' => 'Логин',
-	'username or email' => 'Логин или email',
-	'password' => 'Пароль',
-	'Remember me next time' => 'Запомнить меня',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Пользователь с таким именем не зарегистрирован.',
 	'Email is incorrect.' => 'Пользователь с таким электроным адресом не зарегистрирован.',
 	"This user's name already exists." => 'Пользователь с таким именем уже существует.',
@@ -30,11 +20,7 @@ return array(
 	'You account is not activated.' => 'Ваш аккаунт не активирован.',
 	'You account is blocked.' => 'Ваш аккаунт заблокирован.',
 	'Password is incorrect.' => 'Неверный пароль.',
-<<<<<<< HEAD
 	'Email' => 'Электронная почта',
-=======
-	'E-mail' => 'Электронная почта',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Проверочный код',
 	'Old Password' => 'Старый пароль',
 	'Old Password is incorrect.' => 'Неправильный старый пароль',
@@ -50,37 +36,22 @@ return array(
 	'Minimal password length 4 symbols.' => 'Минимальная длина пароля 4 символа.',
 	'Lost Password?' => 'Забыли пароль?',
 	'Profile' => 'Профиль',
-<<<<<<< HEAD
 	'Activation Key' => 'Ключ активации',
-=======
-	'activation key' => 'Ключ активации',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Активация пользователя',
 	'You account is active.' => 'Ваша учетная запись уже активирована.',
 	'You account is activated.' => 'Ваша учетная запись активирована.',
 	'Incorrect activation URL.' => 'Неправильная ссылка активации учетной записи.',
-<<<<<<< HEAD
 	'Registration Date' => 'Дата регистрации',
 	'Last Visit' => 'Последний визит',
-=======
-	'Registration date' => 'Дата регистрации',
-	'Last visit' => 'Последний визит',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Супер пользователь',
 	'Status' => 'Статус',
 	'Ok' => 'Ok',
 	'Show all'=> 'Показать все',
 	'Save' => 'Сохранить',
 	'Cancel'=> 'Отмена',
-<<<<<<< HEAD
 	'Your new password was saved' => 'Новый пароль сохранен.',
 	'Change password' => 'Изменить пароль',
 	'Your Profile' => 'Ваш профиль',
-=======
-	'New password is saved.' => 'Новый пароль сохранен.',
-	'Change password' => 'Изменить пароль',
-	'Your profile' => 'Ваш профиль',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Регистрация завершена. Пожалуйста проверьте свой электронный ящик или выполните вход.',
 	'Thank you for your registration. Please check your email.' => 'Регистрация завершена. Пожалуйста проверьте свой электронный ящик.',
 	'Please check your email. An instructions was sent to your email address.' => 'На Ваш адрес электронной почты было отправлено письмо с инструкциями.',
@@ -101,15 +72,9 @@ return array(
 	'Banned' => 'Заблокирован',
 	'Please fill out the following form with your login credentials:' => 'Пожалуйста, заполните следующую форму с вашими Логин и паролем:',
 	'Fields with <span class="required">*</span> are required.' => '<span class="required">*</span> Обязательные поля.',
-<<<<<<< HEAD
 	'List Users' => 'Список пользователей',
 	'Edit Profile' => 'Редактировать',
 	'Edit Profile' => 'Редактирование профиля',
-=======
-	'List User' => 'Список пользователей',
-	'Edit' => 'Редактировать',
-	'Edit profile' => 'Редактирование профиля',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Новый',
 	'Create' => 'Добавить',
 	'Manage' => 'Управление',
@@ -120,13 +85,8 @@ return array(
 	'Delete file' => 'Удалить файл',
 	'View User' => 'Просмотр профиля',
 	'Are you sure to delete this item?' => 'Вы действительно хотите удалить пользователя?',
-<<<<<<< HEAD
 	'Changes are saved.' => 'Изменения сохранены.',
 	'Manage Profile Fields' => 'Настройка полей',
-=======
-	'Changes is saved.' => 'Изменения сохранены.',
-	'Manage Profile Field' => 'Настройка полей',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Имя переменной',
 	'Title' => 'Название',
 	'Field Type' => 'Тип поля',

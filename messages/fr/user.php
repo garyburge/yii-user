@@ -1,26 +1,16 @@
 <?php
 
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Registration' => 'Inscription',
         'Register' => "S'inscrire",
         'Login' => 'Connexion',
         'Logout' => 'Déconnexion',
-<<<<<<< HEAD
         'Username' => "Nom d'utilisateur",
         'Username or Email' => "Nom d'utilisateur ou e-mail",
         'password' => 'Mot de passe',
         'Remember Me Next Time' => 'Se souvenir de moi',
-=======
-        'username' => "Nom d'utilisateur",
-        'username or email' => "Nom d'utilisateur ou e-mail",
-        'password' => 'Mot de passe',
-        'Remember me next time' => 'Se souvenir de moi',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Username is incorrect.' => "Nom d'utilisateur est incorrect.",
         'Email is incorrect.' => 'E-mail est incorrect.',
         'This user\'s name already exists.' => 'Le nom de cet utilisateur existe déjà.',
@@ -30,11 +20,7 @@ return array(
         'You account is not activated.' => "Votre compte n'est pas activé.",
         'You account is blocked.' => 'Votre compte est bloqué.',
         'Password is incorrect.' => 'Mot de passe est incorrect.',
-<<<<<<< HEAD
         'Email' => 'Email',
-=======
-        'E-mail' => 'E-mail',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Verification Code' => 'Code de vérification',
 				'Old Password' => 'Ancien mot de passe',
 				'Old Password is incorrect.' => 'Ancien mot de passe est incorrect.',
@@ -50,37 +36,22 @@ return array(
         'Minimal password length 4 symbols.' => 'Mot de passe de longueur minimale 4 symboles.',
         'Lost Password?' => 'Mot de passe oublié?',
         'Profile' => 'Profil',
-<<<<<<< HEAD
         'Activation Key' => "clé d'activation",
-=======
-        'activation key' => "clé d'activation",
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'User activation' => "Utilisateur d'activation",
         'You account is active.' => 'Votre compte est actif.',
         'You account is activated.' => 'Votre compte est activé.',
         'Incorrect activation URL.' => 'Activation URL incorrecte.',
-<<<<<<< HEAD
         'Registration Date' => "Date d'enregistrement",
         'Last Visit' => 'Dernière visite',
-=======
-        'Registration date' => "Date d'enregistrement",
-        'Last visit' => 'Dernière visite',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Superuser' => 'Superuser',
         'Status' => 'Statut',
         'Ok' => "D'accord",
         'Show all'=> 'Afficher tous',
         'Save' => 'Sauver',
         'Cancel'=> 'Annuler',
-<<<<<<< HEAD
         'Your new password was saved' => 'Nouveau mot de passe est enregistré.',
         'Change password' => 'Changer mot de passe',
         'Your Profile' => 'Votre profil',
-=======
-        'New password is saved.' => 'Nouveau mot de passe est enregistré.',
-        'Change password' => 'Changer mot de passe',
-        'Your profile' => 'Votre profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Thank you for your registration. Please check your email or login.' => "Nous vous remercions de votre inscription. S'il vous plaît vérifier votre e-mail ou login.",
         'Thank you for your registration. Please check your email.' => "Nous vous remercions de votre inscription. S'il vous plaît vérifier votre email.",
         'Please check your email. An instructions was sent to your email address.' => "S'il vous plaît vérifier votre email. Une instruction a été envoyée à votre adresse e-mail.",
@@ -101,15 +72,9 @@ return array(
         'Banned' => 'Banni',
         'Please fill out the following form with your login credentials:' => "S'il vous plaît remplir le formulaire suivant avec vos identifiants de connexion:",
         'Fields with <span class="required">*</span> are required.' => 'Les champs avec <span class="required"> * </span> sont obligatoires.',
-<<<<<<< HEAD
         'List Users' => 'Liste des membres',
         'Edit Profile' => 'Éditer',
         'Edit Profile' => 'Modifier le profil',
-=======
-        'List User' => 'Liste des membres',
-        'Edit' => 'Éditer',
-        'Edit profile' => 'Modifier le profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Create User' => 'Créer un utilisateur',
         'Create' => 'Créer',
         'Manage' => 'Gérer',
@@ -120,11 +85,7 @@ return array(
         'Delete file' => 'Supprimer le fichier',
         'View User' => 'Voir utilisateur',
         'Are you sure to delete this item?' => 'Etes-vous sûr de vouloir supprimer cet élément?',
-<<<<<<< HEAD
         'Changes are saved.' => 'Changes est sauvé.',
-=======
-        'Changes is saved.' => 'Changes est sauvé.',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Mange Profile Field' => 'Gerer les champs de profil',
         'Variable name' => 'Nom de la variable',
         'Title' => 'Titre',
@@ -147,11 +108,7 @@ return array(
         'Profile Fields' => 'Champs de profil',
         'View Profile Field #' => 'Champ Voir le profil #',
         'Manage Profile Fields' => 'Gérer les champs du profil',
-<<<<<<< HEAD
         'Manage Profile Fields' => 'Gérer les champs du profil',
-=======
-        'Manage Profile Field' => 'Gérer les champs du profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Create Profile Field' => 'Créer un champ de profil',
         'List Profile Field' => 'Champ profil Liste',
         'View Profile Field' => 'Voir le profil de terrain',
@@ -159,11 +116,7 @@ return array(
         'Update Profile Field' => 'Mise à jour le profil de terrain',
         'Widget'=>'Widget',
         'Widget parametrs'=>'Widget parametrs',
-<<<<<<< HEAD
         'Widget name.'=>'Nom de Widget.',
-=======
-        'Widget name.'=>'Nom de Widget.', 
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         'Allowed lowercase letters and digits.' => 'Admis minuscules et des chiffres.',
         'Field name on the language of "sourceLanguage".' => 'Nom du champ sur la langue de "sourceLanguage".',
         'Field type column in the database.' => 'Colonne de type de champ dans la base de données.',

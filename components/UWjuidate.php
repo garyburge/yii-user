@@ -27,7 +27,6 @@ class UWjuidate {
 	}
 	
 	/**
-<<<<<<< HEAD
 	 * @param $value
 	 * @param $model
 	 * @param $field_varname
@@ -39,8 +38,6 @@ class UWjuidate {
 	}
 	
 	/**
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	 * @param $model - profile model
 	 * @param $field - profile fields model item
 	 * @return string

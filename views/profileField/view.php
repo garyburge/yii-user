@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 $this->breadcrumbs = array(
 	UserModule::t('Profile Fields')=>array('admin'),
 	UserModule::t($model->title),
@@ -10,23 +9,6 @@ $this->breadcrumbs = array(
 
 <?php $this->widget('bootstrap.widgets.TbDetailView', array(
   'type'=>'striped condensed',
-=======
-$this->breadcrumbs=array(
-	UserModule::t('Profile Fields')=>array('admin'),
-	UserModule::t($model->title),
-);
-$this->menu=array(
-    array('label'=>UserModule::t('Create Profile Field'), 'url'=>array('create')),
-    array('label'=>UserModule::t('Update Profile Field'), 'url'=>array('update','id'=>$model->id)),
-    array('label'=>UserModule::t('Delete Profile Field'), 'url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>UserModule::t('Are you sure to delete this item?'))),
-    array('label'=>UserModule::t('Manage Profile Field'), 'url'=>array('admin')),
-    array('label'=>UserModule::t('Manage Users'), 'url'=>array('/user/admin')),
-);
-?>
-<h1><?php echo UserModule::t('View Profile Field #').$model->varname; ?></h1>
-
-<?php $this->widget('zii.widgets.CDetailView', array(
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'data'=>$model,
 	'attributes'=>array(
 		'id',

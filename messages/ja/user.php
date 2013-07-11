@@ -1,26 +1,16 @@
 <?php
 
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'ユーザー登録',
 	'Register' => 'ユーザー登録',
 	'Login' => 'ログイン',
 	'Logout' => 'ログアウト',
-<<<<<<< HEAD
 	'Username' => 'ユーザー名',
 	'Username or Email' => 'ユーザー名 または E-Mail',
 	'password' => 'パスワード',
 	'Remember Me Next Time' => '次回からは自動ログイン',
-=======
-	'username' => 'ユーザー名',
-	'username or email' => 'ユーザー名 または E-Mail',
-	'password' => 'パスワード',
-	'Remember me next time' => '次回からは自動ログイン',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'ユーザー名が正しくありません。',
 	'Email is incorrect.' => 'E-Mail が正しくありません。',
 	'This user\'s name already exists.' => 'このユーザー名は既に他のユーザーが使用しています。',
@@ -30,11 +20,7 @@ return array(
 	'You account is not activated.' => 'あなたのアカウントは認証が完了していません。',
 	'You account is blocked.' => 'あなたのアカウントは停止されています。',
 	'Password is incorrect.' => 'パスワードが正しくありません。',
-<<<<<<< HEAD
 	'Email' => 'Email',
-=======
-	'E-mail' => 'E-mail',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => '検証コード',
 	'Retype Password' => 'パスワード(確認)',
 	'Retype Password is incorrect.' => 'パスワード(確認)が正しくありません。',
@@ -48,37 +34,22 @@ return array(
 	'Minimal password length 4 symbols.' => 'パスワードは 4 文字以上でなければなりません。',
 	'Lost Password?' => 'パスワード再設定',
 	'Profile' => 'プロフィール',
-<<<<<<< HEAD
 	'Activation Key' => 'アカウント認証キー',
-=======
-	'activation key' => 'アカウント認証キー',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'アカウントの認証',
 	'You account is active.' => 'あなたのアカウントは認証が完了しています。',
 	'You account is activated.' => 'あなたのアカウントの認証が完了しました。',
 	'Incorrect activation URL.' => 'アカウント認証の URL が正しくありません。',
-<<<<<<< HEAD
 	'Registration Date' => '登録日付',
 	'Last Visit' => '最後の訪問',
-=======
-	'Registration date' => '登録日付',
-	'Last visit' => '最後の訪問',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => '管理者',
 	'Status' => '状態',
 	'Ok' => 'Ok',
 	'Show all'=> '全て表示',
 	'Save' => '保存する',
 	'Cancel'=> 'キャンセル',
-<<<<<<< HEAD
 	'Your new password was saved' => '新しいパスワードが保存されました。',
 	'Change password' => 'パスワードを変更する',
 	'Your Profile' => 'あなたのプロフィール',
-=======
-	'New password is saved.' => '新しいパスワードが保存されました。',
-	'Change password' => 'パスワードを変更する',
-	'Your profile' => 'あなたのプロフィール',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'ユーザー登録ありがとうございます。メールを確認するか、ログインして下さい。',
 	'Thank you for your registration. Please check your email.' => 'ユーザー登録ありがとうございます。メールを確認して下さい。',
 	'Please check your email. An instructions was sent to your email address.' => '方法をお知らせするメールをあなたのメール・アドレスに送信しました。メールを確認して下さい。',
@@ -99,15 +70,9 @@ return array(
 	'Banned' => '停止',
 	'Please fill out the following form with your login credentials:' => 'あなたのログイン認証情報を入力してください。',
 	'Fields with <span class="required">*</span> are required.' => '<span class="required">*</span> は必須入力項目です。',
-<<<<<<< HEAD
 	'List Users' => 'ユーザー一覧',
 	'Edit Profile' => '編集',
 	'Edit Profile' => 'プロフィールを編集',
-=======
-	'List User' => 'ユーザー一覧',
-	'Edit' => '編集',
-	'Edit profile' => 'プロフィールを編集',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'ユーザーを作成',
 	'Create' => '作成',
 	'Manage' => '管理',
@@ -119,13 +84,8 @@ return array(
 	'Delete file' => 'ファイルを削除',
 	'View User' => 'ユーザーを閲覧',
 	'Are you sure to delete this item?' => 'このアイテムを削除します。よろしいですか？',
-<<<<<<< HEAD
 	'Changes are saved.' => '変更が保存されました。',
 	'Manage Profile Fields' => 'プロフィール項目の管理',
-=======
-	'Changes is saved.' => '変更が保存されました。',
-	'Manage Profile Field' => 'プロフィール項目の管理',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'フィールド名',
 	'Title' => '項目名',
 	'Field Type' => 'フィールドの型',

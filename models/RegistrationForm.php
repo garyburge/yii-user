@@ -7,11 +7,7 @@
 class RegistrationForm extends User {
 	public $verifyPassword;
 	public $verifyCode;
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	public function rules() {
 		$rules = array(
 			array('username, password, verifyPassword, email', 'required'),
@@ -26,17 +22,9 @@ class RegistrationForm extends User {
 		if (!(isset($_POST['ajax']) && $_POST['ajax']==='registration-form')) {
 			array_push($rules,array('verifyCode', 'captcha', 'allowEmpty'=>!UserModule::doCaptcha('registration')));
 		}
-<<<<<<< HEAD
 
 		array_push($rules,array('verifyPassword', 'compare', 'compareAttribute'=>'password', 'message' => UserModule::t("Retype Password is incorrect.")));
 		return $rules;
 	}
 
-=======
-		
-		array_push($rules,array('verifyPassword', 'compare', 'compareAttribute'=>'password', 'message' => UserModule::t("Retype Password is incorrect.")));
-		return $rules;
-	}
-	
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 }

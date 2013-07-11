@@ -3,26 +3,16 @@
  * @author Ricardo Obregón <robregonm@gmail.com>
  */
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Registration' => 'Registro',
 	'Register' => 'Registrar',
     'Login' => 'Inicio de Sesión',
     'Logout' => 'Cerrar sesión',
-<<<<<<< HEAD
     'Username' => "Nombre de Usuario",
     'Username or Email' => "Nombre de Usuario o Email",
     'password' => 'Contraseña',
     'Remember Me Next Time' => 'Recordarme más tarde',
-=======
-    'username' => "Nombre de Usuario",
-    'username or email' => "Nombre de Usuario o Email",
-    'password' => 'Contraseña',
-    'Remember me next time' => 'Recordarme más tarde',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Username is incorrect.' => "El nombre de usuario es incorrecto.",
     'Email is incorrect.' => 'El E-mail es incorrecto.',
     'This user\'s name already exists.' => 'Este nombre de usuario ya existe.',
@@ -32,11 +22,7 @@ return array(
     'You account is not activated.' => "Su cuenta no está activada.",
     'You account is blocked.' => 'Su cuenta está bloqueada.',
     'Password is incorrect.' => 'La contraseña es incorrecta.',
-<<<<<<< HEAD
     'Email' => 'Correo electrónico',
-=======
-    'E-mail' => 'Correo electrónico',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Verification Code' => 'Código de verificación',
     'Retype Password' => 'Redigite la contraseña',
     'Retype Password is incorrect.' => 'La redigitación de la contraseña es incorrecta.',
@@ -50,37 +36,22 @@ return array(
     'Minimal password length 4 symbols.' => 'La contraseña debe ser de mínimo cuatro caracteres.',
     'Lost Password?' => '¿Olvidó su contraseña?',
     'Profile' => 'Perfil',
-<<<<<<< HEAD
     'Activation Key' => "Clave de activación",
-=======
-    'activation key' => "Clave de activación",
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'User activation' => "Activación de usuario",
     'You account is active.' => 'Su cuenta está activa.',
     'You account is activated.' => 'Su cuenta está activada.',
     'Incorrect activation URL.' => 'La URL de activación es incorrecta.',
-<<<<<<< HEAD
     'Registration Date' => "Fecha de registro",
     'Last Visit' => 'Última visita',
-=======
-    'Registration date' => "Fecha de registro",
-    'Last visit' => 'Última visita',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Superuser' => 'Superusuario',
     'Status' => 'Estado',
     'Ok' => "Aceptar",
 	'Show all'=> 'Mostrar todas las',
     'Save' => 'Guardar',
 	'Cancel'=> 'Cancelar',
-<<<<<<< HEAD
     'Your new password was saved' => 'La nueva contraseña ha sido guardada.',
     'Change password' => 'Cambiar la contraseña',
     'Your Profile' => 'Su perfil',
-=======
-    'New password is saved.' => 'La nueva contraseña ha sido guardada.',
-    'Change password' => 'Cambiar la contraseña',
-    'Your profile' => 'Su perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Thank you for your registration. Please check your email or login.' => "Gracias por registrarse. Por favor revise su email o nombre de usuario.",
     'Thank you for your registration. Please check your email.' => "Gracias por registrarse. Por favor revise su email.",
     'Please check your email. An instructions was sent to your email address.' => "Por favor verifique su email. Una instrucción fue enviada a su dirección de email.",
@@ -101,15 +72,9 @@ return array(
 	'Banned' => 'Banned',
     'Please fill out the following form with your login credentials:' => "Por favor llene el siguiente formulario con sus datos de inicio de sesión:",
     'Fields with <span class="required">*</span> are required.' => 'Los campos con <span class="required"> * </span> son obligatorios.',
-<<<<<<< HEAD
     'List Users' => 'Listar Usuarios',
 	'Edit Profile' => 'Editar',
 	'Edit Profile' => 'Editar perfil',
-=======
-    'List User' => 'Listar Usuarios',
-	'Edit' => 'Editar',
-	'Edit profile' => 'Editar perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Create User' => 'Crear Nuevo Usuario',
     'Create' => 'Crear nuevo',
     'Manage' => 'Administrar',
@@ -120,13 +85,8 @@ return array(
 	'Delete file' => 'Eliminar archivo',
     'View User' => 'Ver Usuario',
     'Are you sure to delete this item?' => '¿Está seguro de que desea eliminar este elemento?',
-<<<<<<< HEAD
     'Changes are saved.' => 'Los cambios han sido guardados.',
     'Manage Profile Fields' => 'Administrar Campos de Perfil',
-=======
-    'Changes is saved.' => 'Los cambios han sido guardados.',
-    'Manage Profile Field' => 'Administrar Campos de Perfil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
     'Variable name' => 'Nombre de la variable',
 	'Title' => 'Título',
     'Field Type' => 'Tipo de Campo',
@@ -152,11 +112,7 @@ return array(
     'View Profile Field' => 'Ver Campo de Perfil',
     'Delete Profile Field' => 'Eliminar Campo de Perfil',
     'Update Profile Field' => 'Editar Campo de Perfil',
-<<<<<<< HEAD
 	'Widget'=>'Widget',
-=======
-	'Widget'=>'Widget', 
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Widget parametrs' => 'Widget parametrs',
 	'Widget name.' => 'Nombre del widget.',
     'Allowed lowercase letters and digits.' => 'Se permiten letras en minúsculas y dígitos',

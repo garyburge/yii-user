@@ -1,26 +1,16 @@
 <?php
 
 return array(
-<<<<<<< HEAD
   'Created'=>'Created',
   'Reset Password' => 'Reset Password',
-=======
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Registration' => 'Inregistrare',
 	'Register' => 'Inregistrare',
 	'Login' => 'Conectare',
 	'Logout' => 'Deconectare',
-<<<<<<< HEAD
 	'Username' => 'Nume utilizator',
 	'Username or Email' => 'Nume utilizator sau e-mail',
 	'password' => 'Parola',
 	'Remember Me Next Time' => 'Tine-ma minte data viitoare',
-=======
-	'username' => 'Nume utilizator',
-	'username or email' => 'Nume utilizator sau e-mail',
-	'password' => 'Parola',
-	'Remember me next time' => 'Tine-ma minte data viitoare',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Username is incorrect.' => 'Nume utilizator sau parola gresite.',
 	'Email is incorrect.' => 'E-mail incorect.',
 	'This user\'s name already exists.' => 'Acest nume utilizator deja exista.',
@@ -30,11 +20,7 @@ return array(
 	'You account is not activated.' => 'Contul dumneavoastra nu este activat.',
 	'You account is blocked.' => 'Contul dumneavoastra nu este blocat.',
 	'Password is incorrect.' => 'Parola este gresita.',
-<<<<<<< HEAD
 	'Email' => 'Email',
-=======
-	'E-mail' => 'E-mail',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Verification Code' => 'Cod de verificare',
 	'Retype Password' => 'Reintroduceti parola',
 	'Retype Password is incorrect.' => 'Parola reintrodusa este gresita.',
@@ -48,37 +34,22 @@ return array(
 	'Minimal password length 4 symbols.' => 'Lungimea minima a parolei este de 4 caractere.',
 	'Lost Password?' => 'Ati pierdut parola?',
 	'Profile' => 'Profil',
-<<<<<<< HEAD
 	'Activation Key' => 'cheie activare',
-=======
-	'activation key' => 'cheie activare',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'User activation' => 'Activare utilizator',
 	'You account is active.' => 'Contul dumneavoastra este activ.',
 	'You account is activated.' => 'Contul dumneavoastra este activat.',
 	'Incorrect activation URL.' => 'URL pentru activare incorect.',
-<<<<<<< HEAD
 	'Registration Date' => 'Data inregistrarii',
 	'Last Visit' => 'Ultima vizita',
-=======
-	'Registration date' => 'Data inregistrarii',
-	'Last visit' => 'Ultima vizita',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Superuser' => 'Superuser',
 	'Status' => 'Status',
 	'Ok' => 'Ok',
 	'Show all'=> 'Afisare completa',
 	'Save' => 'Salvare',
 	'Cancel'=> 'Renuntare',
-<<<<<<< HEAD
 	'Your new password was saved' => 'Noua parola este salvata.',
 	'Change password' => 'Schimbare parola',
 	'Your Profile' => 'Profilul dumneavoastra',
-=======
-	'New password is saved.' => 'Noua parola este salvata.',
-	'Change password' => 'Schimbare parola',
-	'Your profile' => 'Profilul dumneavoastra',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Thank you for your registration. Please check your email or login.' => 'Va multumim pentru inregistrare. Va rugam sa va verificati adresa de e-mail sau conectati-va.',
 	'Thank you for your registration. Please check your email.' => 'Va multumim pentru inregistrare. Va rugam sa va verificati adresa de e-mail.',
 	'Please check your email. An instructions was sent to your email address.' => 'Va rugam sa va verificati adresa de e-mail. O instructiune a fost trimisa pe adresa dumneavoastra.',
@@ -99,15 +70,9 @@ return array(
 	'Banned' => 'Blocat',
 	'Please fill out the following form with your login credentials:' => 'Completati campurile cu informatiile dumneavoastra:',
 	'Fields with <span class="required">*</span> are required.' => 'Campurile cu <span class="required"> * </span> sunt obligatorii.',
-<<<<<<< HEAD
 	'List Users' => 'Lista utilizatori',
 	'Edit Profile' => 'Editare',
 	'Edit Profile' => 'Editare profil',
-=======
-	'List User' => 'Lista utilizatori',
-	'Edit' => 'Editare',
-	'Edit profile' => 'Editare profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Create User' => 'Creare utilizator',
 	'Create' => 'Creare',
 	'Manage' => 'Administrare',
@@ -118,13 +83,8 @@ return array(
 	'Delete file' => 'Stergere fisier',
 	'View User' => 'Afisare utilizator',
 	'Are you sure to delete this item?' => 'Sunteti sigur/a ca doriti sa inlaturati acest element? ',
-<<<<<<< HEAD
 	'Changes are saved.' => 'Modificarile au fost salvate.',
 	'Manage Profile Fields' => 'Administrare campuri profil',
-=======
-	'Changes is saved.' => 'Modificarile au fost salvate.',
-	'Manage Profile Field' => 'Administrare campuri profil',
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 	'Variable name' => 'Denumire variabila',
 	'Title' => 'Titlu',
 	'Field Type' => 'Tip camp',
