@@ -2,8 +2,6 @@
 
 class m110805_153437_installYiiUser extends CDbMigration
 {
-<<<<<<< HEAD
-
   protected $MySqlOptions = 'ENGINE=InnoDB CHARSET=utf8';
   private $_model;
 
@@ -217,7 +215,7 @@ class m110805_153437_installYiiUser extends CDbMigration
 =======
 	protected $MySqlOptions = 'ENGINE=InnoDB CHARSET=utf8';
     private $_model;
-    
+
 	public function safeUp()
 	{
         if (!Yii::app()->getModule('user')) {
@@ -274,7 +272,7 @@ class m110805_153437_installYiiUser extends CDbMigration
                         "visible" => "int(1) NOT NULL DEFAULT 0",
                     ), $this->MySqlOptions);
                 break;
-            
+
             case "sqlite":
             default:
                     $this->createTable(Yii::app()->getModule('user')->tableUsers, array(
@@ -422,5 +420,4 @@ class m110805_153437_installYiiUser extends CDbMigration
         }
         return $input;
     }
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 }

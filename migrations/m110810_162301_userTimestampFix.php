@@ -2,8 +2,6 @@
 
 class m110810_162301_userTimestampFix extends CDbMigration
 {
-<<<<<<< HEAD
-
   public function safeUp()
   {
     if (!Yii::app()->getModule('user')) {
@@ -184,5 +182,4 @@ class m110810_162301_userTimestampFix extends CDbMigration
         echo "type db: ".$type."\n";
         return $type;
     }
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
 }
