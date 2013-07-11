@@ -1,21 +1,13 @@
 <?php
-<<<<<<< HEAD
-
 /**
  * Yii-User module
  *
  * @author Mikhail Mangushev <mishamx@gmail.com>
-=======
-/**
- * Yii-User module
- * 
- * @author Mikhail Mangushev <mishamx@gmail.com> 
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
  * @link http://yii-user.2mx.org/
  * @license http://www.opensource.org/licenses/bsd-license.php
  * @version $Id: UserModule.php 132 2011-10-30 10:45:01Z mishamx $
  */
-<<<<<<< HEAD
+
 class UserModule extends CWebModule
 {
 
@@ -138,43 +130,43 @@ class UserModule extends CWebModule
 	 * @desc items on page
 	 */
 	public $user_page_size = 10;
-	
+
 	/**
 	 * @var int
 	 * @desc items on page
 	 */
 	public $fields_page_size = 10;
-	
+
 	/**
 	 * @var string
 	 * @desc hash method (md5,sha1 or algo hash function http://www.php.net/manual/en/function.hash.php)
 	 */
 	public $hash='md5';
-	
+
 	/**
 	 * @var boolean
 	 * @desc use email for activation user account
 	 */
 	public $sendActivationMail=true;
-	
+
 	/**
 	 * @var boolean
 	 * @desc allow auth for is not active user
 	 */
 	public $loginNotActiv=false;
-	
+
 	/**
 	 * @var boolean
 	 * @desc activate user on registration (only $sendActivationMail = false)
 	 */
 	public $activeAfterRegister=false;
-	
+
 	/**
 	 * @var boolean
 	 * @desc login after registration (need loginNotActiv or activeAfterRegister = true)
 	 */
 	public $autoLogin=true;
-	
+
 	public $registrationUrl = array("/user/registration");
 	public $recoveryUrl = array("/user/recovery/recovery");
 	public $loginUrl = array("/user/login");
@@ -182,39 +174,39 @@ class UserModule extends CWebModule
 	public $profileUrl = array("/user/profile");
 	public $returnUrl = array("/user/profile");
 	public $returnLogoutUrl = array("/user/login");
-	
-	
+
+
 	/**
 	 * @var int
 	 * @desc Remember Me Time (seconds), defalt = 2592000 (30 days)
 	 */
 	public $rememberMeTime = 2592000; // 30 days
-	
+
 	public $fieldsMessage = '';
-	
+
 	/**
 	 * @var array
 	 * @desc User model relation from other models
 	 * @see http://www.yiiframework.com/doc/guide/database.arr
 	 */
 	public $relations = array();
-	
+
 	/**
 	 * @var array
 	 * @desc Profile model relation from other models
 	 */
 	public $profileRelations = array();
-	
+
 	/**
 	 * @var boolean
 	 */
 	public $captcha = array('registration'=>true);
-	
+
 	/**
 	 * @var boolean
 	 */
 	//public $cacheEnable = false;
-	
+
 	public $tableUsers = '{{users}}';
 	public $tableProfiles = '{{profiles}}';
 	public $tableProfileFields = '{{profiles_fields}}';
@@ -222,19 +214,19 @@ class UserModule extends CWebModule
     public $defaultScope = array(
             'with'=>array('profile'),
     );
-	
+
 	static private $_user;
 	static private $_users=array();
 	static private $_userByName=array();
 	static private $_admin;
 	static private $_admins;
-	
+
 	/**
 	 * @var array
 	 * @desc Behaviors for models
 	 */
 	public $componentBehaviors=array();
-	
+
 	public function init()
 	{
 		// this method is called when the module is being created
@@ -246,15 +238,13 @@ class UserModule extends CWebModule
 			'user.components.*',
 		));
 	}
-	
+
 	public function getBehaviorsFor($componentName){
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a
         if (isset($this->componentBehaviors[$componentName])) {
             return $this->componentBehaviors[$componentName];
         } else {
             return array();
         }
-<<<<<<< HEAD
     }
 
     public function beforeControllerAction($controller, $action)
@@ -415,7 +405,7 @@ class UserModule extends CWebModule
 		else
 			return false;
 	}
-	
+
 	/**
 	 * @param $str
 	 * @param $params
@@ -428,7 +418,7 @@ class UserModule extends CWebModule
         else
             return Yii::t("UserModule", $str, $params);
 	}
-	
+
 	/**
 	 * @return hash string.
 	 */
@@ -441,10 +431,10 @@ class UserModule extends CWebModule
 		else
 			return hash($hash,$string);
 	}
-	
+
 	/**
 	 * @param $place
-	 * @return boolean 
+	 * @return boolean
 	 */
 	public static function doCaptcha($place = '') {
 		if(!extension_loaded('gd'))
@@ -453,7 +443,7 @@ class UserModule extends CWebModule
 			return Yii::app()->getModule('user')->captcha[$place];
 		return false;
 	}
-	
+
 	/**
 	 * Return admin status.
 	 * @return boolean
@@ -466,7 +456,7 @@ class UserModule extends CWebModule
 				if(self::user()->superuser)
 					self::$_admin = true;
 				else
-					self::$_admin = false;	
+					self::$_admin = false;
 			}
 			return self::$_admin;
 		}
@@ -475,7 +465,7 @@ class UserModule extends CWebModule
 	/**
 	 * Return admins.
 	 * @return array syperusers names
-	 */	
+	 */
 	public static function getAdmins() {
 		if (!self::$_admins) {
 			$admins = User::model()->active()->superuser()->findAll();
@@ -486,7 +476,7 @@ class UserModule extends CWebModule
 		}
 		return self::$_admins;
 	}
-	
+
 	/**
 	 * Send to user mail
 	 */
@@ -507,7 +497,7 @@ class UserModule extends CWebModule
         $headers="From: ".$from."\r\nReply-To: ".Yii::app()->params['adminEmail'];
         return mail($user->email,'=?UTF-8?B?'.base64_encode($subject).'?=',$message,$headers);
     }
-	
+
 	/**
 	 * Return safe user data.
 	 * @param user id not required
@@ -522,7 +512,7 @@ class UserModule extends CWebModule
 			return self::$_users[$id];
         } else return false;
 	}
-	
+
 	/**
 	 * Return safe user data.
 	 * @param user name
@@ -534,7 +524,7 @@ class UserModule extends CWebModule
 		}
 		return $_userByName[$username];
 	}
-	
+
 	/**
 	 * Return safe user data.
 	 * @param user id not required
@@ -544,4 +534,3 @@ class UserModule extends CWebModule
 		return User;
 	}
 }
->>>>>>> 7d748a039bc9eced0cfef50e71239e1036b8453a

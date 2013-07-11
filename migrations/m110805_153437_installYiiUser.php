@@ -42,7 +42,7 @@ class m110805_153437_installYiiUser extends CDbMigration
                     'first_name'=>'string',
                     'last_name'=>'string',
                 ), $this->MySqlOptions);
-                $this->addForeignKey('user_profile_id', Yii::app()->getModule('user')->tableProfiles, 'user_id', Yii::app()->getModule('user')->tableUsers, 'id', 'CASCADE', 'RESTRICT');
+                //$this->addForeignKey('user_profile_id', Yii::app()->getModule('user')->tableProfiles, 'user_id', Yii::app()->getModule('user')->tableUsers, 'id', 'CASCADE', 'RESTRICT');
                 $this->createTable(Yii::app()->getModule('user')->tableProfileFields, array(
                     "id"=>"pk",
                     "varname"=>"varchar(50) NOT NULL DEFAULT ''",
