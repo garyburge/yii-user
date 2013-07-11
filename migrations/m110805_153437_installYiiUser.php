@@ -213,3 +213,4 @@ class m110805_153437_installYiiUser extends CDbMigration
         return $input;
     }
 
+}
