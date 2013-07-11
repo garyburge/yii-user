@@ -1,12 +1,18 @@
 {
-	"name": "yiiuser",
+	"name": "yii-user",
 	"description": "A fork of the yii-user module with many fixes, grammar and spelling corrections and other improvements.",
-	"author": "mishamx",
-	"installationHash": "b3327d6a51617386176d014e31fef732f5093fc6",
-	"type": "git",
-	"url": "git@github.com:phpnode\/YiiCurl.git",
-	"repositoryName": "local",
-	"dependencies": [
-
-	]
+    "author": "Gary Burge <garyburge@garyburge.com>",
+    "contributors": [
+        {
+            "name": "Mikhail Mangushev",
+            "email": "development@2mx.org",
+        {
+            "name": "Gary Burge",
+            "email": "garyburge@garyburge.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/garyburge/yii-user.git"
+    },
 }

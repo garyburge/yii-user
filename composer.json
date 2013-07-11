@@ -1,0 +1,27 @@
+{
+    "name": "garyburge/yii-user",
+    "description": "A fork of the yii-user module with many fixes, grammar and spelling corrections and other improvements.",
+    "keywords": ["yii", "module"],
+    "homepage": "https://github.com/garyburge/yii-user",
+    "type": "yii-extension",
+    "license": "BSD-3-Clause",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Mikhail Mangushev",
+            "email": "development@2mx.org",
+        },
+        {
+            "name": "Gary Burge",
+            "email": "garyburge@garyburge.com"
+        }
+    ],
+    "autoload": {
+            "psr-0": {
+                "yii-user": ""
+            }
+    },
+    "require": {
+        "php": ">=5.1.0"
+    }
+}
