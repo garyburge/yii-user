@@ -49,7 +49,7 @@ class UserModule extends CWebModule
 
     /**
      * @var boolean
-     * @desc login after registration (need loginNotActiv or activeAfterRegister = true)
+     * @desc login after registration (need loginNotActive or activeAfterRegister = true)
      */
     public $autoLogin = true;
     public $registrationUrl = array("/user/registration");
