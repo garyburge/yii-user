@@ -54,8 +54,8 @@ $this->widget('bootstrap.widgets.TbGridView', array(
         ),
         array(
             'name'=>'lastvisit_at',
-            'type'=>'datetime',
-            //'value'=>'Yii::app()->format->datetime($data->lastvisit_at)',
+            //'type'=>'datetime',
+            'value'=>'("0000" === substr($data->lastvisit_at, 0, 4) ? "" : Yii::app()->format->datetime($data->lastvisit_at))',
             'htmlOptions'=>array('style'=>'width:15%;')
         ),
         array(
