@@ -138,11 +138,10 @@ class AdminController extends Controller
      */
     public function actionDelete()
     {
+        // we only allow deletion via POST request
         if (Yii::app()->request->isPostRequest) {
-            // we only allow deletion via POST request
+            // foreign key constraint on profile row also deletes matching profile row automatically
             $model = $this->loadModel();
-//            $profile = Profile::model()->findByPk($model->id);
-//            $profile->delete();
             $model->delete();
             // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
             if (!isset($_POST['ajax'])) {
