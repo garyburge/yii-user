@@ -52,7 +52,7 @@ class RegistrationController extends Controller
             $profile->save();
             if (Yii::app()->controller->module->sendActivationMail) {
               $activation_url = $this->createAbsoluteUrl('/user/activation/activation', array("activeKey"=>$model->activeKey, "email"=>$model->email));
-              UserModule::sendMail($model->email, UserModule::t("You registered from {site_name}", array('{site_name}'=>Yii::app()->name)), UserModule::t("Please activate you account go to {activation_url}", array('{activation_url}'=>$activation_url)));
+              UserModule::sendMail($model->email, UserModule::t("Your {site_name} Registration", array('{site_name}'=>Yii::app()->name)), UserModule::t("Before logging in, you must first activate your account by clicking this link: {activation_url}.", array('{activation_url}'=>$activation_url)));
             }
 
             if ((Yii::app()->controller->module->loginNotActive || (Yii::app()->controller->module->activeAfterRegister && Yii::app()->controller->module->sendActivationMail == false)) && Yii::app()->controller->module->autoLogin) {
@@ -66,7 +66,7 @@ class RegistrationController extends Controller
               } elseif (Yii::app()->controller->module->activeAfterRegister && Yii::app()->controller->module->sendActivationMail == false) {
                 Yii::app()->user->setFlash('registration', UserModule::t("Thank you for your registration. Please {{login}}.", array('{{login}}'=>CHtml::link(UserModule::t('Login'), Yii::app()->controller->module->loginUrl))));
               } elseif (Yii::app()->controller->module->loginNotActive) {
-                Yii::app()->user->setFlash('registration', UserModule::t("Thank you for your registration. Please check your email or login."));
+                Yii::app()->user->setFlash('registration', UserModule::t("Thank you for your registration. Please check your email before logging in."));
               } else {
                 Yii::app()->user->setFlash('registration', UserModule::t("Thank you for your registration. Please check your email."));
               }
