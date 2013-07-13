@@ -212,7 +212,6 @@ class UserModule extends CWebModule
                 array_push($return_name, $admin->username);
             self::$_admins = ($return_name) ? $return_name : array('');
         }
-        Yii::trace(__METHOD__ . " (" . __LINE__ . "): _admins=".print_r(self::$_admins, true), 'user');
         return self::$_admins;
     }
 
