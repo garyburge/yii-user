@@ -16,8 +16,8 @@
           // validate user input and redirect to previous page if valid
           if ($model->validate()) {
             $this->lastVisit();
-            Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->controller->module->returnUrl='".Yii::app()->controller->module->returnUrl."'", 'user');
-            Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->user->returnUrl='".Yii::app()->user->returnUrl."'", 'user');
+            Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->controller->module->returnUrl='".print_r(Yii::app()->controller->module->returnUrl, true)."'", 'user');
+            Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->user->returnUrl='".print_r(Yii::app()->user->returnUrl, true)."'", 'user');
             $this->redirect(Yii::app()->controller->module->returnUrl);
 //            if (Yii::app()->user->returnUrl == '/index.php')
 //              $this->redirect(Yii::app()->controller->module->returnUrl);
