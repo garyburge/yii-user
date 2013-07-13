@@ -52,9 +52,7 @@ class LoginController extends Controller
         Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->user->returnUrl=".print_r(Yii::app()->user->returnUrl, true), 'user');
         Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->controller->module->returnUrl=".print_r(Yii::app()->controller->module->returnUrl, true), 'user');
 
-        if (isset(Yii::app()->user->returnUrl) && !empty(Yii::app()->user->returnUrl)) {
-            $this->redirect(Yii::app()->user->returnUrl);
-        } else if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
+        if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
             $this->redirect(Yii::app()->controller->module->returnUrl);
         } else {
             $this->redirect('/');
