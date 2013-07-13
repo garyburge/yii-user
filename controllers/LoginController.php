@@ -27,6 +27,7 @@ class LoginController extends Controller
 
             // display the login form
             $this->render('/user/login', array('model'=>$model));
+
         } else {
             // user already logged in; goto normal return page
             $this->redirectToReturnUrl();
@@ -48,6 +49,8 @@ class LoginController extends Controller
      */
     private function redirectToReturnUrl()
     {
+        Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->controller->module->returnUrl=".print_r(Yii::app()->controller->module->returnUrl, true), 'user');
+        Yii::trace(__METHOD__ . " (" . __LINE__ . "): Yii::app()->user->returnUrl=".print(Yii::app()->user->returnUrl, true), 'user');
         if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
             $this->redirect(Yii::app()->controller->module->returnUrl);
         } else if (isset(Yii::app()->user->returnUrl) && !empty(Yii::app()->user->returnUrl)) {
