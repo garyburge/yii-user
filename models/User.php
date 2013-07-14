@@ -17,8 +17,6 @@ class User extends CActiveRecord
      * @var string $password
      * @var string $email
      * @var string $activeKey
-     * @var integer $createtime
-     * @var integer $lastvisit
      * @var integer $superuser
      * @var integer $status
      * @var timestamp $create_at

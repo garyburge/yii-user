@@ -1,6 +1,6 @@
 {
-	"name": "yii-user",
-	"description": "A fork of the yii-user module with many fixes, grammar and spelling corrections and other improvements.",
+    "name": "yii-user",
+    "description": "A fork of the yii-user module with many fixes, grammar and spelling corrections and other improvements.",
     "author": "Gary Burge <garyburge@garyburge.com>",
     "contributors": [
         {

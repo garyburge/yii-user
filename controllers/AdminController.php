@@ -47,15 +47,6 @@ class AdminController extends Controller
         $this->render('index', array(
             'model'=>$model,
         ));
-        /* $dataProvider=new CActiveDataProvider('User', array(
-          'pagination'=>array(
-          'pageSize'=>Yii::app()->controller->module->user_page_size,
-          ),
-          ));
-
-          $this->render('index',array(
-          'dataProvider'=>$dataProvider,
-          ));// */
     }
 
     /**
