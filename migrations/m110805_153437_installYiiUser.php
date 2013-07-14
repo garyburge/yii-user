@@ -110,7 +110,7 @@ class m110805_153437_installYiiUser extends CDbMigration
       $this->_model->email = 'webmaster@example.com';
       $this->_model->password = 'admin';
     } else {
-      $this->readStdinUser('Admin login', 'username', 'admin');
+      $this->readStdinUser('Admin login', 'username', 'administrator');
       $this->readStdinUser('Admin email', 'email', 'webmaster@example.com');
       $this->readStdinUser('Admin password', 'password', 'admin');
     }
