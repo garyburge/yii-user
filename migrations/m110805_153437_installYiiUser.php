@@ -112,7 +112,7 @@ class m110805_153437_installYiiUser extends CDbMigration
     } else {
       $this->readStdinUser('Admin login', 'username', 'administrator');
       $this->readStdinUser('Admin email', 'email', 'webmaster@example.com');
-      $this->readStdinUser('Admin password', 'password', 'admin');
+      $this->readStdinUser('Admin password', 'password', 'administrator');
     }
 
     $this->insert(Yii::app()->getModule('user')->tableUsers, array(
