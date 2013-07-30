@@ -79,7 +79,7 @@ $this->widget('bootstrap.widgets.TbGridView', array(
 ?>
 
 <?php $this->widget('bootstrap.widgets.TbButton', array('label'=>UserModule::t('Create User'), 'url'=>array('create'), 'type'=>'primary', 'size'=>'small')); ?>
-    <?php $this->widget('bootstrap.widgets.TbButton', array('label'=>UserModule::t('Advanced Search'), 'url'=>'#', 'buttonType'=>'link', 'size'=>'small', 'htmlOptions'=>array('class'=>'search-button'))); ?>
+<?php $this->widget('bootstrap.widgets.TbButton', array('label'=>UserModule::t('Advanced Search'), 'url'=>'#', 'buttonType'=>'link', 'size'=>'small', 'htmlOptions'=>array('class'=>'search-button'))); ?>
 
 <div class="search-form" style="display:none">
     <?php
