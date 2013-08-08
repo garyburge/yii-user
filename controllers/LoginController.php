@@ -49,7 +49,9 @@ class LoginController extends Controller
      */
     private function redirectToReturnUrl()
     {
-        if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
+        if (isset(Yii::app()->user->returnUrl) && !empty(Yii::app()->user->returnUrl)) {
+            $this->redirect(Yii::app()->user->returnUrl);
+        } else if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
             $this->redirect(Yii::app()->controller->module->returnUrl);
         } else {
             $this->redirect('/');
