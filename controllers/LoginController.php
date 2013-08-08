@@ -50,9 +50,9 @@ class LoginController extends Controller
     private function redirectToReturnUrl()
     {
         $returnUrl = Yii::app()->getModule('user')->returnUrl;
-        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl='$returnUrl'", 'user');
+        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl=".print_r($returnUrl, true), 'user');
         $returnUrl = Yii::app()->user->getReturnUrl(empty($returnUrl) ? null : $returnUrl);
-        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl='$returnUrl'", 'user');
+        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl=".print_r($returnUrl, true), 'user');
         $this->redirect($returnUrl);
 
 //        if (isset(Yii::app()->user->returnUrl) && !empty(Yii::app()->user->returnUrl)) {
