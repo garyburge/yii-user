@@ -45,26 +45,16 @@ class LoginController extends Controller
     }
 
     /**
-     * redirect to defined return url
+     * Redirect to defined return url.
+     *     1. UserModule::returnUrl
+     *     2. CWebUser::returnUrl
+     *     3. Root of the application ('/')
      */
     private function redirectToReturnUrl()
     {
         $returnUrl = Yii::app()->getModule('user')->returnUrl;
-        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl=".print_r($returnUrl, true), 'user');
         $returnUrl = Yii::app()->user->getReturnUrl(empty($returnUrl) ? null : $returnUrl);
-        Yii::trace(__METHOD__ . " (" . __LINE__ . "): returnUrl=".print_r($returnUrl, true), 'user');
         $this->redirect($returnUrl);
-
-//        if (isset(Yii::app()->user->returnUrl) && !empty(Yii::app()->user->returnUrl)) {
-//            Yii::trace(__METHOD__ . " (" . __LINE__ . "): redirecting to Yii::app()->user->returnUrl ('".Yii::app()->user->returnUrl."'", 'user');
-//            $this->redirect(Yii::app()->user->returnUrl);
-//        } else if (isset(Yii::app()->controller->module->returnUrl) && !empty(Yii::app()->controller->module->returnUrl)) {
-//            Yii::trace(__METHOD__ . " (" . __LINE__ . "): redirecting to Yii::app()->controller->module->returnUrl ('".Yii::app()->controller->module->returnUrl."'", 'user');
-//            $this->redirect(Yii::app()->controller->module->returnUrl);
-//        } else {
-//            Yii::trace(__METHOD__ . " (" . __LINE__ . "): redirecting to this->redirect('/')", 'user');
-//            $this->redirect('/');
-//        }
     }
 
 }
