@@ -11,8 +11,9 @@
   );
 ?>
 
-
-<h1><?php echo UserModule::t('Edit Profile'); ?></h1>
+<div class="page-header">
+  <h1><?php echo UserModule::t('Edit Profile'); ?></h1>
+</div>
 
 <?php if (Yii::app()->user->hasFlash('profileMessage')): ?>
   <?php $this->widget('bootstrap.widgets.TbAlert', array('alerts'=>array('profileMessage'))); ?>
@@ -27,11 +28,11 @@
   ));
 ?>
 
-  <p class="muted"><small><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></small></p>
+  <p class="help-block"><small><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></small></p>
   <?php echo $form->errorSummary(array($model, $profile)); ?>
 
-  <?php echo $form->textFieldRow($model, 'username'); ?>
-  <?php echo $form->textFieldRow($model, 'email', array('class'=>'span5')); ?>
+  <?php echo $form->textFieldGroup($model, 'username'); ?>
+  <?php echo $form->textFieldGroup($model, 'email', array('class'=>'span5')); ?>
 
   <?php
     $profileFields = $profile->getFields();
