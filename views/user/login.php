@@ -20,13 +20,13 @@ $this->breadcrumbs=array(
   ));
 ?>
 
-	<p class="muted"><small><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></small></p>
+  <p class="muted"><small><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></small></p>
   <?php $form->errorSummary($model); ?>
 
-  <?php echo $form->textFieldRow($model, 'username'); ?>
-  <?php echo $form->passwordFieldRow($model, 'password'); ?>
+  <?php echo $form->textFieldGroup($model, 'username'); ?>
+  <?php echo $form->passwordFieldGroup($model, 'password'); ?>
   <p class="help-block"><?php echo CHtml::link(UserModule::t("Register"), Yii::app()->getModule('user')->registrationUrl); ?> | <?php echo CHtml::link(UserModule::t("Lost Password?"), Yii::app()->getModule('user')->recoveryUrl); ?></p>
-  <?php echo $form->checkBoxRow($model, 'rememberMe'); ?>
+  <?php echo $form->checkBoxGroup($model, 'rememberMe'); ?>
 
   <div class="form-actions">
     <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'type'=>'primary', 'label'=>UserModule::t("Login"))); ?>
