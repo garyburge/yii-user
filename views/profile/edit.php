@@ -38,20 +38,19 @@
     $profileFields = $profile->getFields();
     if ($profileFields) {
       foreach ($profileFields as $field) {
-        echo '<div class="form-group">';
-        echo $form->labelEx($profile, $field->varname)."<br>\n";
-
         if ($widgetEdit = $field->widgetEdit($profile)) {
+          echo '<div class="form-group">';
+          echo $form->labelEx($profile, $field->varname)."<br>\n";
           echo $widgetEdit;
+          echo $form->error($profile, $field->varname);
+          echo '</div>';
         } elseif ($field->range) {
-          echo $form->dropDownList($profile, $field->varname, Profile::range($field->range));
+          echo $form->dropDownListGroup($profile, $field->varname, Profile::range($field->range));
         } elseif ($field->field_type == "TEXT") {
-          echo $form->textArea($profile, $field->varname, array('rows'=>6, 'cols'=>50));
+          echo $form->textAreaGroup($profile, $field->varname, array('rows'=>6, 'cols'=>50));
         } else {
-          echo $form->textField($profile, $field->varname, array('size'=>60, 'maxlength'=>(($field->field_size) ? $field->field_size : 255)));
+          echo $form->textFieldGroup($profile, $field->varname, array('size'=>60, 'maxlength'=>(($field->field_size) ? $field->field_size : 255)));
         }
-        echo $form->error($profile, $field->varname);
-        echo '</div>';
       }
     }
   ?>
