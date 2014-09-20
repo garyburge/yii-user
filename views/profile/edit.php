@@ -39,7 +39,7 @@
     if ($profileFields) {
       foreach ($profileFields as $field) {
         echo '<div class="form-group">';
-        echo $form->labelEx($profile, $field->varname);
+        echo $form->labelEx($profile, $field->varname)."<br>\n";
 
         if ($widgetEdit = $field->widgetEdit($profile)) {
           echo $widgetEdit;
