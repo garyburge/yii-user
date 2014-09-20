@@ -55,7 +55,7 @@
   ?>
 
   <div class="form-actions">
-    <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'type'=>'primary', 'label'=>UserModule::t('Save'))); ?>
+    <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'context'=>'primary', 'label'=>UserModule::t('Save'))); ?>
   </div>
 
 <?php $this->endWidget(); ?>
