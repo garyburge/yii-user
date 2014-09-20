@@ -32,7 +32,7 @@
   <?php echo $form->errorSummary(array($model, $profile)); ?>
 
   <?php echo $form->textFieldGroup($model, 'username'); ?>
-  <?php echo $form->textFieldGroup($model, 'email', array('class'=>'span5')); ?>
+  <?php echo $form->textFieldGroup($model, 'email', array('class'=>'col-md-5')); ?>
 
   <?php
     $profileFields = $profile->getFields();
