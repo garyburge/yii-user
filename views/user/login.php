@@ -29,7 +29,7 @@ $this->breadcrumbs=array(
   <?php echo $form->checkBoxGroup($model, 'rememberMe'); ?>
 
   <div class="form-actions">
-    <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'type'=>'primary', 'label'=>UserModule::t("Login"))); ?>
+    <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType'=>'submit', 'context'=>'primary', 'label'=>UserModule::t("Login"))); ?>
   </div>
 
 <?php $this->endWidget(); ?>
