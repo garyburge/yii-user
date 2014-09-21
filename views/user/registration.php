@@ -33,7 +33,6 @@ $this->breadcrumbs=array(
 			
 			    <?php echo $form->textFieldGroup($model, 'username'); ?>
 			    <?php echo $form->passwordFieldGroup($model, 'password'); ?>
-			    <p class="help-block"><?php echo UserModule::t("Password must be 8 to 32 characters"); ?></p>
 			    <?php echo $form->passwordFieldGroup($model, 'verifyPassword'); ?>
 			    <?php echo $form->textFieldGroup($model, 'email'); ?>
 			
