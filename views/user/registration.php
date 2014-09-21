@@ -57,7 +57,7 @@ $this->breadcrumbs=array(
     ?>
 
     <?php if(CCaptcha::checkRequirements()): ?>
-      <?php echo $form->captchaRow($model, 'verifyCode', array(
+      <?php echo $form->captchaGroup($model, 'verifyCode', array(
           'hint'=>UserModule::t("Please enter the letters as they are shown in the image above.").' '.UserModule::t("Letters are not case-sensitive.")
         ));
       ?>
