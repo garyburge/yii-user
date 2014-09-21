@@ -26,7 +26,7 @@ $this->breadcrumbs=array(
     <?php echo $form->errorSummary(array($model,$profile)); ?>
 
     <?php echo $form->textFieldGroup($model, 'username'); ?>
-    <?php echo $form->passwordGroup($model, 'password'); ?>
+    <?php echo $form->passwordFieldGroup($model, 'password'); ?>
     <p class="help-block"><?php echo UserModule::t("Minimal password length 4 symbols."); ?></p>
     <?php echo $form->passwordFieldGroup($model, 'verifyPassword'); ?>
     <?php echo $form->textFieldGroup($model, 'email'); ?>
